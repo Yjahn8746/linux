@@ -1,0 +1,1281 @@
+Script started on 2021-04-14 01:12:25+09:00 [TERM="xterm" TTY="/dev/pts/18" COLUMNS="75" LINES="24"]
+]0;u20013@solgae: ~u20013@solgae:~$ date > timero[Kecord
+]0;u20013@solgae: ~u20013@solgae:~$ cat timerecord
+2021. 04. 14. (수) 01:12:55 KST
+]0;u20013@solgae: ~u20013@solgae:~$ date >> timerecord
+]0;u20013@solgae: ~u20013@solgae:~$ cat to[Kimerecord
+2021. 04. 14. (수) 01:12:55 KST
+2021. 04. 14. (수) 01:13:10 KST
+]0;u20013@solgae: ~u20013@solgae:~$ eccho[K[K[Kho Hello
+Hello
+]0;u20013@solgae: ~u20013@solgae:~$ echo 'Hello'
+Hello
+]0;u20013@solgae: ~u20013@solgae:~$ echo \<your\>
+<your>
+]0;u20013@solgae: ~u20013@solgae:~$ echo \&
+&
+]0;u20013@solgae: ~u20013@solgae:~$ echo \[my\]
+[my]
+]0;u20013@solgae: ~u20013@solgae:~$ bc << word
+> scale=30
+> 5/7
+> word
+.714285714285714285714285714285
+]0;u20013@solgae: ~u20013@solgae:~$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+scale = [K[K[K=30
+5/7
+.714285714285714285714285714285
+]0;u20013@solgae: ~u20013@solgae:~$ a*
+arg.c: command not found
+]0;u20013@solgae: ~u20013@solgae:~$ echo a*
+arg.c average
+]0;u20013@solgae: ~u20013@solgae:~$ echo [a-k]*
+arg.c average
+]0;u20013@solgae: ~u20013@solgae:~$ echo *[a-][Kk]
+Music Orange arg.c average timerecord
+]0;u20013@solgae: ~u20013@solgae:~$ cat >>[K zzz
+zzz
+]0;u20013@solgae: ~u20013@solgae:~$ echo 8[K*[a-k}[K]
+Music Orange arg.c average timerecord
+]0;u20013@solgae: ~u20013@solgae:~$ echo p???
+p???
+]0;u20013@solgae: ~u20013@solgae:~$ p???
+p???: command not found
+]0;u20013@solgae: ~u20013@solgae:~$ cat > peek
+peek
+]0;u20013@solgae: ~u20013@solgae:~$ p???
+
+Command 'peek' not found, but can be installed with:
+
+apt install peek
+Please ask your administrator.
+
+]0;u20013@solgae: ~u20013@solgae:~$ cat > push[K[K[Kasd
+pasd
+]0;u20013@solgae: ~u20013@solgae:~$ p???
+
+Command 'pasd' not found, did you mean:
+
+  command 'pawd' from deb am-utils (6.2+rc20110530-3.2ubuntu2)
+  command 'pcsd' from deb pcs (0.10.4-3)
+  command 'psd' from deb profile-sync-daemon (6.34-1)
+  command 'psad' from deb psad (2.4.3-1.2)
+  command 'pamd' from deb dacs (1.4.40-2)
+  command 'pads' from deb pads (1.2-12)
+  command 'nasd' from deb nas (1.9.4-6build1)
+  command 'pass' from deb pass (1.7.3-2)
+  command 'fasd' from deb fasd (1.0.1-1)
+
+Try: apt install <deb name>
+
+]0;u20013@solgae: ~u20013@solgae:~$ ls p???
+pasd  peek
+]0;u20013@solgae: ~u20013@solgae:~$ ls -l /bin/a*
+-rwxr-xr-x 1 root root  31248  5월 20  2020 [0m[01;32m/bin/aa-enabled[0m
+-rwxr-xr-x 1 root root  35344  5월 20  2020 [01;32m/bin/aa-exec[0m
+lrwxrwxrwx 1 root root     25  3월 31 17:28 [01;36m/bin/aclocal[0m -> [01;32m/etc/alternatives/aclocal[0m
+-rwxr-xr-x 1 root root  36478  2월  5  2020 [01;32m/bin/aclocal-1.16[0m
+-rwxr-xr-x 1 root root  22912 10월 17 00:50 [01;32m/bin/aconnect[0m
+-rwxr-xr-x 1 root root  19016 11월 28  2019 [01;32m/bin/acpi_listen[0m
+-rwxr-xr-x 1 root root   7415 11월  3 23:08 [01;32m/bin/add-apt-repository[0m
+-rwxr-xr-x 1 root root  30952  7월 21  2020 [01;32m/bin/addpart[0m
+lrwxrwxrwx 1 root root     26  1월 22 00:23 [01;36m/bin/addr2line[0m -> [01;32mx86_64-linux-gnu-addr2line[0m
+-rwxr-xr-x 1 root root  47552 10월 17 00:50 [01;32m/bin/alsabat[0m
+-rwxr-xr-x 1 root root  85296 10월 17 00:50 [01;32m/bin/alsaloop[0m
+-rwxr-xr-x 1 root root  72432 10월 17 00:50 [01;32m/bin/alsamixer[0m
+-rwxr-xr-x 1 root root  14720 10월 17 00:50 [01;32m/bin/alsatplg[0m
+-rwxr-xr-x 1 root root  31528 10월 17 00:50 [01;32m/bin/alsaucm[0m
+-rwxr-xr-x 1 root root  31112 10월 17 00:50 [01;32m/bin/amidi[0m
+-rwxr-xr-x 1 root root  63952 10월 17 00:50 [01;32m/bin/amixer[0m
+-rwxr-xr-x 1 root root   2668  3월 22  2020 [01;32m/bin/amuFormat.sh[0m
+-rwxr-xr-x 1 root root    274 10월  2  2017 [01;32m/bin/apg[0m
+-rwxr-xr-x 1 root root  26696 10월  2  2017 [01;32m/bin/apgbfm[0m
+-rwxr-xr-x 1 root root  84400 10월 17 00:50 [01;32m/bin/aplay[0m
+-rwxr-xr-x 1 root root  27016 10월 17 00:50 [01;32m/bin/aplaymidi[0m
+-rwxr-xr-x 1 root root   2558 12월  5  2019 [01;32m/bin/apport-bug[0m
+-rwxr-xr-x 1 root root  13367  1월 26 21:21 [01;32m/bin/apport-cli[0m
+lrwxrwxrwx 1 root root     10  2월 22 14:23 [01;36m/bin/apport-collect[0m -> [01;32mapport-bug[0m
+-rwxr-xr-x 1 root root   2068  1월 26 21:21 [01;32m/bin/apport-unpack[0m
+-rwxr-xr-x 1 root root  14648  2월 29  2020 [01;32m/bin/appres[0m
+-rwxr-xr-x 1 root root  67816  3월 15  2020 [01;32m/bin/appstreamcli[0m
+lrwxrwxrwx 1 root root      6  2월 22 14:23 [01;36m/bin/apropos[0m -> [01;32mwhatis[0m
+-rwxr-xr-x 1 root root  18824  1월 14 20:49 [01;32m/bin/apt[0m
+lrwxrwxrwx 1 root root     18  2월 22 14:23 [01;36m/bin/apt-add-repository[0m -> [01;32madd-apt-repository[0m
+-rwxr-xr-x 1 root root  88536  1월 14 20:49 [01;32m/bin/apt-cache[0m
+-rwxr-xr-x 1 root root  31192  1월 14 20:49 [01;32m/bin/apt-cdrom[0m
+-rwxr-xr-x 1 root root  27016  1월 14 20:49 [01;32m/bin/apt-config[0m
+-rwxr-xr-x 1 root root  27104  1월 14 20:49 [01;32m/bin/apt-extracttemplates[0m
+-rwxr-xr-x 1 root root 281056  1월 14 20:49 [01;32m/bin/apt-ftparchive[0m
+-rwxr-xr-x 1 root root  47576  1월 14 20:49 [01;32m/bin/apt-get[0m
+-rwxr-xr-x 1 root root  27931  1월 14 20:49 [01;32m/bin/apt-key[0m
+-rwxr-xr-x 1 root root  63960  1월 14 20:49 [01;32m/bin/apt-mark[0m
+-rwxr-xr-x 1 root root  47504  1월 14 20:49 [01;32m/bin/apt-sortpkgs[0m
+-rwxr-xr-x 1 root root   1039 12월  2 21:42 [01;32m/bin/aptdcon[0m
+-rwxr-xr-x 1 root root    273  5월 20  2016 [01;32m/bin/apturl[0m
+-rwxr-xr-x 1 root root   1544  1월 25  2020 [01;32m/bin/apturl-gtk[0m
+lrwxrwxrwx 1 root root     19  1월 22 00:23 [01;36m/bin/ar[0m -> [01;32mx86_64-linux-gnu-ar[0m
+-rwxr-xr-x 1 root root  39288  9월  5  2019 [01;32m/bin/arch[0m
+lrwxrwxrwx 1 root root      5  2월 22 14:23 [01;36m/bin/arecord[0m -> [01;32maplay[0m
+-rwxr-xr-x 1 root root  31120 10월 17 00:50 [01;32m/bin/arecordmidi[0m
+-rwxr-xr-x 1 root root  14656  1월 31  2020 [01;32m/bin/arm2hpdl[0m
+lrwxrwxrwx 1 root root     19  1월 22 00:23 [01;36m/bin/as[0m -> [01;32mx86_64-linux-gnu-as[0m
+-rwxr-xr-x 1 root root  27008 10월 17 00:50 [01;32m/bin/aseqdump[0m
+-rwxr-xr-x 1 root root  27064 10월 17 00:50 [01;32m/bin/aseqnet[0m
+-rwxr-xr-x 1 root root 170496  3월 23  2020 [01;32m/bin/aspell[0m
+-rwxr-xr-x 1 root root   2044  3월 23  2020 [01;32m/bin/aspell-import[0m
+-rwxr-xr-x 1 root root  14640  2월 29  2020 [01;32m/bin/atobm[0m
+-rwxr-xr-x 1 root root  14768  1월  3  2020 [01;32m/bin/autoconf[0m
+-rwxr-xr-x 1 root root   8536  1월  3  2020 [01;32m/bin/autoheader[0m
+-rwxr-xr-x 1 root root  32671  1월  3  2020 [01;32m/bin/autom4te[0m
+lrwxrwxrwx 1 root root     26  3월 31 17:28 [01;36m/bin/automake[0m -> [01;32m/etc/alternatives/automake[0m
+-rwxr-xr-x 1 root root 257949  2월  5  2020 [01;32m/bin/automake-1.16[0m
+-rwxr-xr-x 1 root root  21163  1월  3  2020 [01;32m/bin/autoreconf[0m
+-rwxr-xr-x 1 root root  17132  1월  3  2020 [01;32m/bin/autoscan[0m
+-rwxr-xr-x 1 root root  33874  1월  3  2020 [01;32m/bin/autoupdate[0m
+-rwxr-xr-x 1 root root  30968  4월  8  2020 [01;32m/bin/avahi-browse[0m
+lrwxrwxrwx 1 root root     12  2월 22 14:23 [01;36m/bin/avahi-browse-domains[0m -> [01;32mavahi-browse[0m
+-rwxr-xr-x 1 root root  26864  4월  8  2020 [01;32m/bin/avahi-publish[0m
+lrwxrwxrwx 1 root root     13  2월 22 14:23 [01;36m/bin/avahi-publish-address[0m -> [01;32mavahi-publish[0m
+lrwxrwxrwx 1 root root     13  2월 22 14:23 [01;36m/bin/avahi-publish-service[0m -> [01;32mavahi-publish[0m
+-rwxr-xr-x 1 root root  22768  4월  8  2020 [01;32m/bin/avahi-resolve[0m
+lrwxrwxrwx 1 root root     13  2월 22 14:23 [01;36m/bin/avahi-resolve-address[0m -> [01;32mavahi-resolve[0m
+lrwxrwxrwx 1 root root     13  2월 22 14:23 [01;36m/bin/avahi-resolve-host-name[0m -> [01;32mavahi-resolve[0m
+-rwxr-xr-x 1 root root  14576  4월  8  2020 [01;32m/bin/avahi-set-host-name[0m
+lrwxrwxrwx 1 root root     21  2월 22 14:23 [01;36m/bin/awk[0m -> [01;32m/etc/alternatives/awk[0m
+-rwxr-xr-x 1 root root  92544 10월 17 00:50 [01;32m/bin/axfer[0m
+]0;u20013@solgae: ~u20013@solgae:~$ ls -[K-l /bin/[a[K[K*[a-k]
+-rwxr-xr-x 1 root root         274  1월 17 18:13 [0m[01;32m/bin/Xorg[0m
+-rwxr-xr-x 1 root root     2324456  1월 17 18:13 [01;32m/bin/Xwayland[0m
+-rwxr-xr-x 1 root root       31248  5월 20  2020 [01;32m/bin/aa-enabled[0m
+-rwxr-xr-x 1 root root       35344  5월 20  2020 [01;32m/bin/aa-exec[0m
+lrwxrwxrwx 1 root root          26  1월 22 00:23 [01;36m/bin/addr2line[0m -> [01;32mx86_64-linux-gnu-addr2line[0m
+-rwxr-xr-x 1 root root       14720 10월 17 00:50 [01;32m/bin/alsatplg[0m
+-rwxr-xr-x 1 root root       31112 10월 17 00:50 [01;32m/bin/amidi[0m
+-rwxr-xr-x 1 root root        2668  3월 22  2020 [01;32m/bin/amuFormat.sh[0m
+-rwxr-xr-x 1 root root         274 10월  2  2017 [01;32m/bin/apg[0m
+-rwxr-xr-x 1 root root       27016 10월 17 00:50 [01;32m/bin/aplaymidi[0m
+-rwxr-xr-x 1 root root        2558 12월  5  2019 [01;32m/bin/apport-bug[0m
+-rwxr-xr-x 1 root root       13367  1월 26 21:21 [01;32m/bin/apport-cli[0m
+-rwxr-xr-x 1 root root        2068  1월 26 21:21 [01;32m/bin/apport-unpack[0m
+-rwxr-xr-x 1 root root       67816  3월 15  2020 [01;32m/bin/appstreamcli[0m
+-rwxr-xr-x 1 root root       88536  1월 14 20:49 [01;32m/bin/apt-cache[0m
+-rwxr-xr-x 1 root root       27016  1월 14 20:49 [01;32m/bin/apt-config[0m
+-rwxr-xr-x 1 root root      281056  1월 14 20:49 [01;32m/bin/apt-ftparchive[0m
+-rwxr-xr-x 1 root root       63960  1월 14 20:49 [01;32m/bin/apt-mark[0m
+-rwxr-xr-x 1 root root        1544  1월 25  2020 [01;32m/bin/apturl-gtk[0m
+-rwxr-xr-x 1 root root       39288  9월  5  2019 [01;32m/bin/arch[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/arecord[0m -> [01;32maplay[0m
+-rwxr-xr-x 1 root root       31120 10월 17 00:50 [01;32m/bin/arecordmidi[0m
+-rwxr-xr-x 1 root root       14768  1월  3  2020 [01;32m/bin/autoconf[0m
+-rwxr-xr-x 1 root root       32671  1월  3  2020 [01;32m/bin/autom4te[0m
+lrwxrwxrwx 1 root root          26  3월 31 17:28 [01;36m/bin/automake[0m -> [01;32m/etc/alternatives/automake[0m
+-rwxr-xr-x 1 root root       21163  1월  3  2020 [01;32m/bin/autoreconf[0m
+-rwxr-xr-x 1 root root       33874  1월  3  2020 [01;32m/bin/autoupdate[0m
+-rwxr-xr-x 1 root root       30968  4월  8  2020 [01;32m/bin/avahi-browse[0m
+-rwxr-xr-x 1 root root       26864  4월  8  2020 [01;32m/bin/avahi-publish[0m
+lrwxrwxrwx 1 root root          13  2월 22 14:23 [01;36m/bin/avahi-publish-service[0m -> [01;32mavahi-publish[0m
+-rwxr-xr-x 1 root root       22768  4월  8  2020 [01;32m/bin/avahi-resolve[0m
+lrwxrwxrwx 1 root root          13  2월 22 14:23 [01;36m/bin/avahi-resolve-host-name[0m -> [01;32mavahi-resolve[0m
+-rwxr-xr-x 1 root root       14576  4월  8  2020 [01;32m/bin/avahi-set-host-name[0m
+lrwxrwxrwx 1 root root          21  2월 22 14:23 [01;36m/bin/awk[0m -> [01;32m/etc/alternatives/awk[0m
+-rwxr-xr-x 1 root root      207296  9월 13  2019 [01;32m/bin/baobab[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/basename[0m
+-rwxr-xr-x 1 root root     1183448  6월 19  2020 [01;32m/bin/bash[0m
+-rwxr-xr-x 1 root root        6794  6월 19  2020 [01;32m/bin/bashbug[0m
+-rwxr-xr-x 1 root root      101064  1월 15  2019 [01;32m/bin/bc[0m
+-rwxr-xr-x 1 root root      197080  4월  3  2020 [01;32m/bin/bccmd[0m
+-rwxr-xr-x 1 root root       43128  3월 19  2018 [01;32m/bin/bdftopcf[0m
+-rwxr-xr-x 1 root root       10232  3월 19  2018 [01;32m/bin/bdftruncate[0m
+-rwxr-xr-x 1 root root       14664  2월 29  2020 [01;32m/bin/bmtoa[0m
+-rwxr-xr-x 1 root root      248544  3월  4  2020 [01;32m/bin/brltty-ctb[0m
+-rwxr-xr-x 1 root root      219936  3월  4  2020 [01;32m/bin/brltty-ttb[0m
+-rwxr-xr-x 1 root root      121224  5월  8  2020 [01;32m/bin/broadwayd[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/browse[0m -> [01;32mxdg-open[0m
+-rwxr-sr-x 1 root tty        14488  3월 30  2020 [30;43m/bin/bsd-write[0m
+-rwxr-xr-x 1 root root       76008  4월  3  2020 [01;32m/bin/btattach[0m
+-rwxr-xr-x 1 root root        2227  9월  6  2019 [01;32m/bin/bzdiff[0m
+-rwxr-xr-x 1 root root        4877  9월  4  2019 [01;32m/bin/bzexe[0m
+-rwxr-xr-x 1 root root        1297  9월  6  2019 [01;32m/bin/bzmore[0m
+-rwxr-xr-x 1 root root         428  5월  7  2006 [01;32m/bin/c89-gcc[0m
+-rwxr-xr-x 1 root root         454  4월 11  2011 [01;32m/bin/c99-gcc[0m
+-rwxr-xr-x 1 root root        6332  3월 22 20:37 [01;32m/bin/c_rehash[0m
+-rwxr-xr-x 1 root root        1669  3월 25  2020 [01;32m/bin/caca-config[0m
+-rwxr-xr-x 1 root root       27688  8월 12  2016 [01;32m/bin/calibrate_ppa[0m
+lrwxrwxrwx 1 root root          20  3월 11 20:16 [01;36m/bin/cc[0m -> [01;32m/etc/alternatives/cc[0m
+-rwxr-xr-x 1 root root       26928  3월 20  2020 [01;32m/bin/cd-create-profile[0m
+-rwxr-xr-x 1 root root       26928  3월 20  2020 [01;32m/bin/cd-fix-profile[0m
+-rwxr-sr-x 1 root shadow     84512  5월 28  2020 [30;43m/bin/chage[0m
+-rwxr-xr-x 1 root root      272776  9월 25  2020 [01;32m/bin/cheese[0m
+-rwxr-xr-x 1 root root       63864  9월  5  2019 [01;32m/bin/chmod[0m
+-rwsr-xr-x 1 root root       53040  5월 28  2020 [37;41m/bin/chsh[0m
+-rwxr-xr-x 1 root root       14568  6월 19  2020 [01;32m/bin/clear_console[0m
+-rwxr-xr-x 1 root root       14328  5월 10  2019 [01;32m/bin/codepage[0m
+lrwxrwxrwx 1 root root          11  2월 22 14:23 [01;36m/bin/compose[0m -> [01;32mrun-mailcap[0m
+-rwxr-sr-x 1 root crontab    43720  2월 14  2020 [30;43m/bin/crontab[0m
+lrwxrwxrwx 1 root root          21  4월  5 09:08 [01;36m/bin/csh[0m -> [01;32m/etc/alternatives/csh[0m
+-rwxr-xr-x 1 root root       63872  4월 24  2020 [01;32m/bin/cupstestppd[0m
+-rwxr-xr-x 1 root root      129816  7월 19  2019 [01;32m/bin/dash[0m
+-rwxr-xr-x 1 root root      108920  9월  5  2019 [01;32m/bin/date[0m
+-rwxr-xr-x 1 root root       34960  6월 12  2020 [01;32m/bin/dbus-launch[0m
+-rwxr-xr-x 1 root root       30864  6월 12  2020 [01;32m/bin/dbus-send[0m
+-rwxr-xr-x 1 root root       55392  1월 15  2019 [01;32m/bin/dc[0m
+-rwxr-xr-x 1 root root       55528  3월 11  2020 [01;32m/bin/dconf[0m
+-rwxr-xr-x 1 root root       80256  9월  5  2019 [01;32m/bin/dd[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/ddstdecode[0m
+-rwxr-xr-x 1 root root        4430  6월 22  2019 [01;32m/bin/deb-systemd-invoke[0m
+-rwxr-xr-x 1 root root        2859  8월  3  2019 [01;32m/bin/debconf[0m
+-rwxr-xr-x 1 root root         608  8월  3  2019 [01;32m/bin/debconf-communicate[0m
+-rwxr-xr-x 1 root root        1719  8월  3  2019 [01;32m/bin/debconf-copydb[0m
+-rwxr-xr-x 1 root root         647  8월  3  2019 [01;32m/bin/debconf-escape[0m
+-rwxr-xr-x 1 root root       82344  4월 21  2020 [01;32m/bin/desktop-file-validate[0m
+-rwxr-xr-x 1 root root       93128  9월  5  2019 [01;32m/bin/df[0m
+-rwxr-xr-x 1 root root        1836  2월 25  2018 [01;32m/bin/dh_autotools-dev_restoreconfig[0m
+-rwxr-xr-x 1 root root        1849  2월 25  2018 [01;32m/bin/dh_autotools-dev_updateconfig[0m
+-rwxr-xr-x 1 root root      219480  4월  8  2019 [01;32m/bin/diff[0m
+-rwxr-xr-x 1 root root      138032  2월 17 05:08 [01;32m/bin/dig[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/dirname[0m
+-rwxr-xr-x 1 root root       84440  7월 21  2020 [01;32m/bin/dmesg[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/dnsdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root        9314  1월 20 06:47 [01;32m/bin/do-release-upgrade[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/domainname[0m -> [01;32mhostname[0m
+lrwxrwxrwx 1 root root          25  4월  5 11:02 [01;36m/bin/dotlock[0m -> [30;43m/etc/alternatives/dotlock[0m
+-rwxr-xr-x 1 root root      309944  3월 23  2020 [01;32m/bin/dpkg[0m
+-rwxr-xr-x 1 root root      178728  3월 23  2020 [01;32m/bin/dpkg-deb[0m
+-rwxr-xr-x 1 root root       63760  3월 23  2020 [01;32m/bin/dpkg-statoverride[0m
+-rwxr-xr-x 1 root root        1007  8월 22  2020 [01;32m/bin/dvipdf[0m
+lrwxrwxrwx 1 root root          25  3월 31 09:00 [01;36m/bin/ebrowse[0m -> [01;32m/etc/alternatives/ebrowse[0m
+-rwxr-xr-x 1 root root       55504  2월 22  2020 [01;32m/bin/ed[0m
+-rwxr-xr-x 1 root root    39991720  3월 26  2020 [01;32m/bin/emacs-gtk[0m
+-rwxr-xr-x 1 root root       18808  7월  6  2020 [01;32m/bin/eog[0m
+-rwxr-xr-x 1 root root      482984  7월  7  2020 [01;32m/bin/evince[0m
+-rwxr-xr-x 1 root root       43384  9월  5  2019 [01;32m/bin/expand[0m
+-rwxr-xr-x 1 root root       23136  5월 28  2020 [01;32m/bin/faillog[0m
+-rwxr-xr-x 1 root root       35048  7월 21  2020 [01;32m/bin/fallocate[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/false[0m
+-rwxr-xr-x 1 root root       22760  4월  6  2020 [01;32m/bin/fc-cache[0m
+-rwxr-xr-x 1 root root       14568  4월  6  2020 [01;32m/bin/fc-match[0m
+-rwxr-xr-x 1 root root       14568  4월  6  2020 [01;32m/bin/fc-validate[0m
+-rwxr-xr-x 1 root root       14408  5월 10  2019 [01;32m/bin/fgconsole[0m
+-rwxr-xr-x 1 root root       27104  1월 17  2020 [01;32m/bin/file[0m
+-rwxr-xr-x 1 root root       35096  7월 21  2020 [01;32m/bin/fincore[0m
+-rwxr-xr-x 1 root root      320160  2월 18  2020 [01;32m/bin/find[0m
+-rwxr-xr-x 1 root root       35128  7월 21  2020 [01;32m/bin/flock[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/fold[0m
+-rwxr-xr-x 1 root root       44264  1월 31  2020 [01;32m/bin/foo2hiperc[0m
+-rwxr-xr-x 1 root root       45304  1월 31  2020 [01;32m/bin/foo2lava[0m
+-rwxr-xr-x 1 root root       40360  1월 31  2020 [01;32m/bin/foo2oak[0m
+-rwxr-xr-x 1 root root       14640  4월 16  2020 [01;32m/bin/fprintd-delete[0m
+-rwxr-xr-x 1 root root       26864  2월 27  2020 [01;32m/bin/free[0m
+lrwxrwxrwx 1 root root          26  2월 22 14:23 [01;36m/bin/futurize[0m -> [01;32m/etc/alternatives/futurize[0m
+-rwxr-xr-x 1 root root       84488  6월 19  2020 [01;32m/bin/fwupdate[0m
+-rwxr-xr-x 1 root root       22912  6월 19  2020 [01;32m/bin/fwupdtpmevlog[0m
+-rwxr-xr-x 1 root root      166392  5월 18  2020 [01;32m/bin/gamemoded[0m
+-rwxr-xr-x 1 root root       14488  9월 17  2020 [01;32m/bin/gamma4scanimage[0m
+-rwxr-xr-x 1 root root      252304  3월  9  2020 [01;32m/bin/gcalccmd[0m
+lrwxrwxrwx 1 root root           5  3월 20  2020 [01;36m/bin/gcc[0m -> [01;32mgcc-9[0m
+lrwxrwxrwx 1 root root          12  3월 20  2020 [01;36m/bin/gcc-ranlib[0m -> [01;32mgcc-ranlib-9[0m
+-rwxr-xr-x 1 root root        3477  8월  4  2020 [01;32m/bin/gcore[0m
+-rwxr-xr-x 1 root root     8440200  8월  4  2020 [01;32m/bin/gdb[0m
+-rwxr-xr-x 1 root root         126  8월  4  2020 [01;32m/bin/gdbtui[0m
+-rwxr-xr-x 1 root root        9228  2월 27  2020 [01;32m/bin/gdialog[0m
+-rwxr-xr-x 1 root root       14672  2월 18 23:41 [01;32m/bin/gdk-pixbuf-csource[0m
+-rwxr-xr-x 1 root root       14656  2월 18 23:41 [01;32m/bin/gdk-pixbuf-pixdata[0m
+-rwxr-xr-x 1 root root      657304  2월 18  2020 [01;32m/bin/genisoimage[0m
+-rwxr-xr-x 1 root root       35112 12월 16 20:04 [01;32m/bin/getconf[0m
+-rwxr-xr-x 1 root root        4629  3월 23  2020 [01;32m/bin/gettext.sh[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/gipddecode[0m
+lrwxrwxrwx 1 root root           3  3월  4 22:01 [01;36m/bin/git-receive-pack[0m -> [01;32mgit[0m
+lrwxrwxrwx 1 root root           3  3월  4 22:01 [01;36m/bin/git-upload-archive[0m -> [01;32mgit[0m
+lrwxrwxrwx 1 root root           3  3월  4 22:01 [01;36m/bin/git-upload-pack[0m -> [01;32mgit[0m
+-rwxr-xr-x 1 root root       23128  6월  3  2020 [01;32m/bin/gjs-console[0m
+-rwxr-xr-x 1 root root        5386  3월 13 01:38 [01;32m/bin/glib-gettextize[0m
+lrwxrwxrwx 1 root root          15  2월 22 14:23 [01;36m/bin/gnome-keyring[0m -> [01;32mgnome-keyring-3[0m
+-rwxr-xr-x 1 root root          91  4월  8  2020 [01;32m/bin/gnome-session-remmina[0m
+lrwxrwxrwx 1 root root          21  1월 22 00:23 [01;36m/bin/gold[0m -> [01;32mx86_64-linux-gnu-gold[0m
+-rwsr-xr-x 1 root root       88464  5월 28  2020 [37;41m/bin/gpasswd[0m
+-rwxr-xr-x 1 root root     1066992  3월 11  2020 [01;32m/bin/gpg[0m
+-rwxr-xr-x 1 root root      895272  3월 11  2020 [01;32m/bin/gpgcompose[0m
+-rwxr-xr-x 1 root root      178848  3월 11  2020 [01;32m/bin/gpgconf[0m
+lrwxrwxrwx 1 root root           3  2월 22 14:23 [01;36m/bin/gpic[0m -> [01;32mpic[0m
+lrwxrwxrwx 1 root root          22  1월 22 00:23 [01;36m/bin/gprof[0m -> [01;32mx86_64-linux-gnu-gprof[0m
+-rwxr-xr-x 1 root root       22840  3월 13 01:38 [01;32m/bin/gresource[0m
+-rwxr-xr-x 1 root root      124448  3월 21  2020 [01;32m/bin/groff[0m
+-rwxr-xr-x 1 root root        2776  3월 21  2020 [01;32m/bin/grog[0m
+-rwxr-xr-x 1 root root      799104  1월 13 23:12 [01;32m/bin/grub-file[0m
+-rwxr-xr-x 1 root root      249712  1월 13 23:12 [01;32m/bin/grub-glue-efi[0m
+-rwxr-xr-x 1 root root      233600  1월 13 23:12 [01;32m/bin/grub-menulst2cfg[0m
+-rwxr-xr-x 1 root root      357328  1월 13 23:12 [01;32m/bin/grub-mkimage[0m
+-rwxr-xr-x 1 root root      245328  1월 13 23:12 [01;32m/bin/grub-mkrelpath[0m
+-rwxr-xr-x 1 root root      977200  1월 13 23:12 [01;32m/bin/grub-mkrescue[0m
+-rwxr-xr-x 1 root root      489328  1월 13 23:12 [01;32m/bin/grub-mkstandalone[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:23 [01;36m/bin/grub-ntldr-img[0m -> [01;32m../lib/grub/i386-pc/grub-ntldr-img[0m[K
+-rwxr-xr-x 1 root root      278224  1월 13 23:12 [01;32m/bin/grub-script-check[0m
+-rwxr-xr-x 1 root root      759056  1월 13 23:12 [01;32m/bin/grub-syslinux2cfg[0m
+-rwxr-xr-x 1 root root         350  8월 22  2020 [01;32m/bin/gsbj[0m
+-rwxr-xr-x 1 root root         352  8월 22  2020 [01;32m/bin/gsdj[0m
+-rwxr-xr-x 1 root root         353  8월 22  2020 [01;32m/bin/gslj[0m
+-rwxr-xr-x 1 root root         277  8월 22  2020 [01;32m/bin/gsnd[0m
+-rwxr-xr-x 1 root root       18752  1월 17 18:13 [01;32m/bin/gtf[0m
+-rwxr-xr-x 1 root root       18856  5월  8  2020 [01;32m/bin/gtk-encode-symbolic-svg[0m
+-rwxr-xr-x 1 root root       18904  5월  8  2020 [01;32m/bin/gtk-launch[0m
+-rwxr-xr-x 1 root root       39552  5월  8  2020 [01;32m/bin/gtk-update-icon-cache[0m
+-rwxr-xr-x 1 root root         275  4월 15  2020 [01;32m/bin/gvfs-mime[0m
+-rwxr-xr-x 1 root root         281  4월 15  2020 [01;32m/bin/gvfs-monitor-file[0m
+-rwxr-xr-x 1 root root         275  4월 15  2020 [01;32m/bin/gvfs-move[0m
+-rwxr-xr-x 1 root root         279  4월 15  2020 [01;32m/bin/gvfs-rename[0m
+-rwxr-xr-x 1 root root         275  4월 15  2020 [01;32m/bin/gvfs-save[0m
+-rwxr-xr-x 1 root root         273  4월 15  2020 [01;32m/bin/gvfs-set-attribute[0m
+-rwxr-xr-x 1 root root         277  4월 15  2020 [01;32m/bin/gvfs-trash[0m
+-rwxr-xr-x 1 root root         275  4월 15  2020 [01;32m/bin/gvfs-tree[0m
+-rwxr-xr-x 1 root root        6376 12월 14  2019 [01;32m/bin/gzexe[0m
+-rwxr-xr-x 1 root root       29224 10월 19 19:56 [01;32m/bin/h2ph[0m
+-rwxr-xr-x 1 root root       26944  1월 31  2020 [01;32m/bin/hbpldecode[0m
+-rwxr-xr-x 1 root root      141400  4월  3  2020 [01;32m/bin/hciattach[0m
+-rwxr-xr-x 1 root root      200888  4월  3  2020 [01;32m/bin/hciconfig[0m
+lrwxrwxrwx 1 root root           7  2월 22 14:23 [01;36m/bin/hd[0m -> [01;32mhexdump[0m
+-rwxr-xr-x 1 root root       47480  9월  5  2019 [01;32m/bin/head[0m
+-rwxr-xr-x 1 root root       18664  4월  3  2020 [01;32m/bin/hex2hcd[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/hipercdecode[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/hostid[0m
+-rwxr-xr-x 1 root root       26856 11월  7  2019 [01;32m/bin/hostname[0m
+lrwxrwxrwx 1 root root          23  2월 22 14:23 [01;36m/bin/hp-check[0m -> [01;32m../share/hplip/check.py[0m
+lrwxrwxrwx 1 root root          26  2월 22 14:23 [01;36m/bin/hp-firmware[0m -> [01;32m../share/hplip/firmware.py[0m
+lrwxrwxrwx 1 root root          28  2월 22 14:23 [01;36m/bin/hp-logcapture[0m -> [01;32m../share/hplip/logcapture.py[0m
+lrwxrwxrwx 1 root root          25  2월 22 14:23 [01;36m/bin/hp-makeuri[0m -> [01;32m../share/hplip/makeuri.py[0m
+lrwxrwxrwx 1 root root          27  2월 22 14:23 [01;36m/bin/hp-pkservice[0m -> [01;32m../share/hplip/pkservice.py[0m
+lrwxrwxrwx 1 root root          23  2월 22 14:23 [01;36m/bin/hp-probe[0m -> [01;32m../share/hplip/probe.py[0m
+lrwxrwxrwx 1 root root          26  2월 22 14:23 [01;36m/bin/hp-testpage[0m -> [01;32m../share/hplip/testpage.py[0m
+lrwxrwxrwx 1 root root          26  2월 22 14:23 [01;36m/bin/hp-timedate[0m -> [01;32m../share/hplip/timedate.py[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:25 [01;36m/bin/i686-linux-gnu-pkg-config[0m -> [01;32m/usr/share/pkg-config-crosswrapper[0m[K
+-rwxr-xr-x 1 root root        1141  2월 17  2020 [01;32m/bin/ibus-table-createdb[0m
+-rwxr-xr-x 1 root root       39032  3월 19  2018 [01;32m/bin/iceauth[0m
+-rwxr-xr-x 1 root root       47480  9월  5  2019 [01;32m/bin/id[0m
+-rwxr-xr-x 1 root root       11009  3월 31  2019 [01;32m/bin/im-config[0m
+-rwxr-xr-x 1 root root        1920  3월 31  2019 [01;32m/bin/im-launch[0m
+-rwxr-xr-x 1 root root       34488 10월 12  2019 [01;32m/bin/inputattach[0m
+-rwxr-xr-x 1 root root        4370 10월 19 19:56 [01;32m/bin/instmodsh[0m
+-rwxr-xr-x 1 root root       30952  7월 21  2020 [01;32m/bin/ionice[0m
+-rwxr-xr-x 1 root root       35120  7월 21  2020 [01;32m/bin/ipcmk[0m
+-rwxr-xr-x 1 root root       22680  9월 26  2019 [01;32m/bin/ipod-read-sysinfo-extended[0m
+-rwxr-xr-x 1 root root       14488  9월 26  2019 [01;32m/bin/ipod-time-sync[0m
+-rwxr-xr-x 1 root root       43416  4월 24  2020 [01;32m/bin/ippfind[0m
+-rwxr-xr-x 1 root root       30896  3월 11  2020 [01;32m/bin/isdv4-serial-inputattach[0m
+-rwxr-xr-x 1 root root       34992  9월 10  2019 [01;32m/bin/jpgicc[0m
+-rwxr-xr-x 1 root root       14408  5월 10  2019 [01;32m/bin/kbd_mode[0m
+-rwxr-xr-x 1 root root         385  3월 14  2020 [01;32m/bin/keyring[0m
+-rwxr-xr-x 1 root root      174424  3월 12  2020 [01;32m/bin/kmod[0m
+-rwxr-xr-x 1 root root      102408  4월  3  2020 [01;32m/bin/l2ping[0m
+lrwxrwxrwx 1 root root           4  2월 22 14:23 [01;36m/bin/lastb[0m -> [01;32mlast[0m
+-rwxr-xr-x 1 root root       32416  5월 28  2020 [01;32m/bin/lastlog[0m
+-rwxr-xr-x 1 root root       22848  1월 31  2020 [01;32m/bin/lavadecode[0m
+-rwxr-xr-x 1 root root        7786 12월 14  2018 [01;32m/bin/lcf[0m
+lrwxrwxrwx 1 root root          19  1월 22 00:23 [01;36m/bin/ld[0m -> [01;32mx86_64-linux-gnu-ld[0m
+lrwxrwxrwx 1 root root          23  1월 22 00:23 [01;36m/bin/ld.bfd[0m -> [01;32mx86_64-linux-gnu-ld.bfd[0m
+lrwxrwxrwx 1 root root          24  1월 22 00:23 [01;36m/bin/ld.gold[0m -> [01;32mx86_64-linux-gnu-ld.gold[0m
+-rwxr-xr-x 1 root root        5427 12월 16 20:04 [01;32m/bin/ldd[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/lessfile[0m -> [01;32mlesspipe[0m
+-rwxr-xr-x 1 root root        8564  9월  3  2019 [01;32m/bin/lesspipe[0m
+-rwxr-xr-x 1 root root      101320  2월 26  2020 [01;32m/bin/lexgrog[0m
+-rwxr-xr-x 1 root root       15775 10월 19 19:56 [01;32m/bin/libnetcfg[0m
+lrwxrwxrwx 1 root root          15  2월  8  2020 [01;36m/bin/libpng-config[0m -> [01;32mlibpng16-config[0m
+-rwxr-xr-x 1 root root        2471  2월  8  2020 [01;32m/bin/libpng16-config[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:23 [01;36m/bin/libreoffice[0m -> [01;32m../lib/libreoffice/program/soffice[0m[K
+-rwxr-xr-x 1 root root      131332  3월  2  2020 [01;32m/bin/libtoolize[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/link[0m
+-rwxr-xr-x 1 root root       26840  9월 10  2019 [01;32m/bin/linkicc[0m
+-rwxr-xr-x 1 root root          59  8월 25  2020 [01;32m/bin/localc[0m
+-rwxr-xr-x 1 root root       58944 12월 16 20:04 [01;32m/bin/locale[0m
+-rwxr-xr-x 1 root root       14496  1월 27 18:40 [01;32m/bin/locale-check[0m
+-rwxr-xr-x 1 root root      334808 12월 16 20:04 [01;32m/bin/localedef[0m
+-rwxr-xr-x 1 root root          53  8월 25  2020 [01;32m/bin/loffice[0m
+-rwxr-xr-x 1 root root          64  8월 25  2020 [01;32m/bin/lofromtemplate[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/logname[0m
+-rwxr-xr-x 1 root root          59  8월 25  2020 [01;32m/bin/lomath[0m
+-rwxr-xr-x 1 root root       14728  3월 30  2020 [01;32m/bin/look[0m
+-rwxr-xr-x 1 root root          58  8월 25  2020 [01;32m/bin/loweb[0m
+-rwxr-xr-x 1 root root      117456  5월  3  2019 [01;32m/bin/lowntfs-3g[0m
+-rwxr-xr-x 1 root root       51192  6월  3  2017 [01;32m/bin/lp_solve[0m
+-rwxr-xr-x 1 root root        3638  8월 26  2019 [01;32m/bin/lsb_release[0m
+-rwxr-xr-x 1 root root      133352  7월 21  2020 [01;32m/bin/lsblk[0m
+-rwxr-xr-x 1 root root       96488  7월 21  2020 [01;32m/bin/lsipc[0m
+lrwxrwxrwx 1 root root           4  2월 22 14:23 [01;36m/bin/lsmod[0m -> [01;32mkmod[0m
+-rwxr-xr-x 1 root root      175744 12월 26 01:57 [01;32m/bin/lsof[0m
+-rwxr-xr-x 1 root root       94160  1월 26  2020 [01;32m/bin/lspci[0m
+-rwxr-xr-x 1 root root      248328 10월  2  2019 [01;32m/bin/lsusb[0m
+-rwxr-xr-x 1 root root      308560  2월  1  2019 [01;32m/bin/ltrace[0m
+-rwxr-xr-x 1 root root       10292 11월 30  2019 [01;32m/bin/lwp-download[0m
+lrwxrwxrwx 1 root root           3  2월 22 14:23 [01;36m/bin/lz4c[0m -> [01;32mlz4[0m
+lrwxrwxrwx 1 root root          24  2월 22 14:23 [01;36m/bin/lzdiff[0m -> [01;32m/etc/alternatives/lzdiff[0m
+lrwxrwxrwx 1 root root          22  2월 22 14:23 [01;36m/bin/lzma[0m -> [01;32m/etc/alternatives/lzma[0m
+lrwxrwxrwx 1 root root          24  2월 22 14:23 [01;36m/bin/lzmore[0m -> [01;32m/etc/alternatives/lzmore[0m
+-rwxr-xr-x 1 root root        3733 11월 21  2019 [01;32m/bin/m17n-db[0m
+-rwxr-xr-x 1 root root      230968  7월 28  2018 [01;32m/bin/make[0m
+-rwxr-xr-x 1 root root       27544  2월 26  2020 [01;32m/bin/man-recode[0m
+-rwxr-xr-x 1 root root      142432  2월 26  2020 [01;32m/bin/mandb[0m
+-rwxr-xr-x 1 root root       39632  2월 26  2020 [01;32m/bin/manpath[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mattrib[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root      162552  2월 17  2020 [01;32m/bin/mawk[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mcd[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root        1679  3월 22  2020 [01;32m/bin/mcheck[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mclasserase[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       35120  7월 21  2020 [01;32m/bin/mcookie[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mdeltree[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       51608  2월 17 05:08 [01;32m/bin/mdig[0m
+-rwxr-xr-x 1 root root       14568  7월 21  2020 [01;32m/bin/mesg[0m
+-rwxr-xr-x 1 root root        3060  3월 10  2020 [01;32m/bin/migrate-pubring-from-classic-gpg[0m
+-rwxr-xr-x 1 root root       12060  8월  7  2018 [01;32m/bin/mimetype[0m
+-rwxr-xr-x 1 root root       39440  3월 19  2018 [01;32m/bin/mkfontscale[0m
+-rwxr-xr-x 1 root root       72024  9월  5  2019 [01;32m/bin/mknod[0m
+-rwxr-xr-x 1 root root       31016  2월 18  2020 [01;32m/bin/mkzftree[0m
+-rwxr-xr-x 1 root root      234136  4월 11  2020 [01;32m/bin/mmcli[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mmd[0m -> [01;32mmtools[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mmove[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       43160  7월 21  2020 [01;32m/bin/more[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mrd[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       14656  1월 24  2020 [01;32m/bin/msexpand[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mshortname[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root        6497 12월 16 20:04 [01;32m/bin/mtrace[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mtype[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       35048  7월 21  2020 [01;32m/bin/namei[0m
+-rwxr-xr-x 1 root root       26928  6월  3  2020 [01;32m/bin/nautilus-autorun-software[0m
+lrwxrwxrwx 1 root root          22  2월 22 14:23 [01;36m/bin/nawk[0m -> [01;32m/etc/alternatives/nawk[0m
+lrwxrwxrwx 1 root root          20  2월 22 14:23 [01;36m/bin/nc[0m -> [01;32m/etc/alternatives/nc[0m
+-rwxr-xr-x 1 root root       43664  3월 10  2020 [01;32m/bin/nc.openbsd[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/nice[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/nisdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root       22832  9월 17  2020 [01;32m/bin/nm-online[0m
+-rwxr-xr-x 1 root root      859488  9월 17  2020 [01;32m/bin/nmcli[0m
+-rwxr-xr-x 1 root root      683392  9월 17  2020 [01;32m/bin/nmtui[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/nmtui-hostname[0m -> [01;32mnmtui[0m
+-rwxr-xr-x 1 root root       18672  3월 21  2020 [01;32m/bin/notify-send[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/nproc[0m
+-rwxr-xr-x 1 root root        3293  3월 21  2020 [01;32m/bin/nroff[0m
+-rwxr-xr-x 1 root root       72216  2월 17 05:08 [01;32m/bin/nsupdate[0m
+-rwxr-xr-x 1 root root      158448  5월  3  2019 [01;32m/bin/ntfs-3g[0m
+-rwxr-xr-x 1 root root       14408  5월  3  2019 [01;32m/bin/ntfs-3g.probe[0m
+-rwxr-xr-x 1 root root       39024  5월  3  2019 [01;32m/bin/ntfsfallocate[0m
+-rwxr-xr-x 1 root root       39016  5월  3  2019 [01;32m/bin/ntfsmove[0m
+-rwxr-xr-x 1 root root       43040  5월  3  2019 [01;32m/bin/ntfstruncate[0m
+-rwxr-xr-x 1 root root       47752  5월  3  2019 [01;32m/bin/ntfswipe[0m
+-rwxr-xr-x 1 root root       18768  1월 31  2020 [01;32m/bin/oakdecode[0m
+-rwxr-xr-x 1 root root       28384  2월 29  2020 [01;32m/bin/oclock[0m
+-rwxr-xr-x 1 root root       72056  9월  5  2019 [01;32m/bin/od[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/opldecode[0m
+-rwxr-xr-x 1 root root        8729  5월  5  2020 [01;32m/bin/orca[0m
+-rwxr-xr-x 1 root root       18824  1월  5 12:10 [01;32m/bin/pacmd[0m
+-rwxr-xr-x 1 root root       14328  6월 26  2019 [01;32m/bin/paperconf[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/parec[0m -> [01;32mpacat[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/parecord[0m -> [01;32mpacat[0m
+-rwsr-xr-x 1 root root       68208  5월 28  2020 [37;41m/bin/passwd[0m
+-rwxr-xr-x 1 root root       43384  9월  5  2019 [01;32m/bin/paste[0m
+lrwxrwxrwx 1 root root          28  2월 22 14:23 [01;36m/bin/pasteurize[0m -> [01;32m/etc/alternatives/pasteurize[0m
+-rwxr-xr-x 1 root root      195096  7월 27  2019 [01;32m/bin/patch[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/pathchk[0m
+-rwxr-xr-x 1 root root       14648  1월  5 12:10 [01;32m/bin/pax11publish[0m
+-rwxr-xr-x 1 root root        2341  3월 21  2020 [01;32m/bin/pcre-config[0m
+-rwxr-xr-x 1 root root        1976 12월  8  2019 [01;32m/bin/pcre2-config[0m
+-rwxr-xr-x 1 root root         698  8월 22  2020 [01;32m/bin/pdf2dsc[0m
+-rwxr-xr-x 1 root root       22976  3월 28  2020 [01;32m/bin/pdfattach[0m
+-rwxr-xr-x 1 root root       23464  3월 28  2020 [01;32m/bin/pdfdetach[0m
+-rwxr-xr-x 1 root root       22760  3월 28  2020 [01;32m/bin/pdfseparate[0m
+-rwxr-xr-x 1 root root       26856  3월 28  2020 [01;32m/bin/pdfsig[0m
+-rwxr-xr-x 1 root root       30952  3월 28  2020 [01;32m/bin/pdfunite[0m
+-rwxr-xr-x 1 root root       14488 11월 12  2019 [01;32m/bin/peekfd[0m
+-rwxr-xr-x 1 root root       46366 10월 19 19:56 [01;32m/bin/perlbug[0m
+-rwxr-xr-x 1 root root         125 10월 28  2019 [01;32m/bin/perldoc[0m
+-rwxr-xr-x 1 root root       57920  2월  8  2020 [01;32m/bin/perli11ndoc[0m
+-rwxr-xr-x 1 root root         516  8월 22  2020 [01;32m/bin/pfbtopfa[0m
+-rwxr-xr-x 1 root root      221536  3월 21  2020 [01;32m/bin/pic[0m
+lrwxrwxrwx 1 root root          14  2월 22 14:23 [01;36m/bin/pidof[0m -> [01;32m/sbin/killall5[0m
+-rwxr-xr-x 1 root root       72776  1월 31  2020 [01;32m/bin/ping[0m
+-rwxr-xr-x 1 root root       22912  8월 16  2019 [01;32m/bin/pkcheck[0m
+-rwsr-xr-x 1 root root       31032  8월 16  2019 [37;41m/bin/pkexec[0m
+-rwxr-xr-x 1 root root       55552  2월  7  2020 [01;32m/bin/pkg-config[0m
+-rwxr-xr-x 1 root root       22904 12월 16 20:04 [01;32m/bin/pldd[0m
+-rwxr-xr-x 1 root root         146  2월  9  2019 [01;32m/bin/plog[0m
+-rwxr-xr-x 1 root root       51352 11월  2 19:02 [01;32m/bin/plymouth[0m
+-rwxr-xr-x 1 root root     1652232  8월 12  2016 [01;32m/bin/pnm2ppa[0m
+-rwxr-xr-x 1 root root        3948 10월 19 19:56 [01;32m/bin/pod2usage[0m
+-rwxr-xr-x 1 root root        2837  2월  9  2019 [01;32m/bin/poff[0m
+-rwxr-xr-x 1 root root      117280  4월 24  2020 [01;32m/bin/ppdc[0m
+-rwxr-xr-x 1 root root      117280  4월 24  2020 [01;32m/bin/ppdi[0m
+-rwxr-xr-x 1 root root       18816  4월 24  2020 [01;32m/bin/ppdmerge[0m
+-rwxr-xr-x 1 root root        5640  1월 31  2020 [01;32m/bin/printer-profile[0m
+-rwxr-xr-x 1 root root       59736  9월  5  2019 [01;32m/bin/printf[0m
+-rwxr-xr-x 1 root root       13655 10월 19 19:56 [01;32m/bin/prove[0m
+-rwxr-xr-x 1 root root         631  8월 22  2020 [01;32m/bin/ps2ascii[0m
+-rwxr-xr-x 1 root root        2752  8월 22  2020 [01;32m/bin/ps2epsi[0m
+-rwxr-xr-x 1 root root         272  8월 22  2020 [01;32m/bin/ps2pdf[0m
+lrwxrwxrwx 1 root root           9  2월 22 14:23 [01;36m/bin/psfaddtable[0m -> [01;32mpsfxtable[0m
+lrwxrwxrwx 1 root root           9  2월 22 14:23 [01;36m/bin/psfgettable[0m -> [01;32mpsfxtable[0m
+lrwxrwxrwx 1 root root           9  2월 22 14:23 [01;36m/bin/psfstriptable[0m -> [01;32mpsfxtable[0m
+-rwxr-xr-x 1 root root       22520  5월 10  2019 [01;32m/bin/psfxtable[0m
+-rwxr-xr-x 1 root root       26784  9월 10  2019 [01;32m/bin/psicc[0m
+-rwxr-xr-x 1 root root       14488 11월 12  2019 [01;32m/bin/pslog[0m
+-rwxr-xr-x 1 root root       36008 11월 12  2019 [01;32m/bin/pstree[0m
+-rwxr-xr-x 1 root root        2628 10월 19 19:56 [01;32m/bin/ptardiff[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/pwd[0m
+-rwxr-xr-x 1 root root       12120  3월 13  2020 [01;32m/bin/py3compile[0m
+-rwxr-xr-x 1 root root       11895  3월 13  2020 [01;32m/bin/pycompile[0m
+-rwxr-xr-x 1 root root         384  3월 28  2020 [01;32m/bin/python3-futurize[0m
+-rwxr-xr-x 1 root root         388  3월 28  2020 [01;32m/bin/python3-pasteurize[0m
+-rwxr-xr-x 1 root root       23144  1월 31  2020 [01;32m/bin/qpdldecode[0m
+lrwxrwxrwx 1 root root          23  1월 22 00:23 [01;36m/bin/ranlib[0m -> [01;32mx86_64-linux-gnu-ranlib[0m
+lrwxrwxrwx 1 root root           4  2월 22 14:23 [01;36m/bin/rbash[0m -> [01;32mbash[0m
+-rwxr-xr-x 1 root root      133360  2월 14  2020 [01;32m/bin/rdma[0m
+lrwxrwxrwx 1 root root          24  1월 22 00:23 [01;36m/bin/readelf[0m -> [01;32mx86_64-linux-gnu-readelf[0m
+-rwxr-xr-x 1 root root       51544  9월  5  2019 [01;32m/bin/readlink[0m
+lrwxrwxrwx 1 root root          25  4월  5 11:02 [01;36m/bin/readmsg[0m -> [01;32m/etc/alternatives/readmsg[0m
+-rwxr-xr-x 1 root root       51576  9월  5  2019 [01;32m/bin/realpath[0m
+-rwxr-xr-x 1 root root          89  2월 22  2020 [01;32m/bin/red[0m
+-rwxr-xr-x 1 root root      490480  4월 12  2020 [01;32m/bin/remmina[0m
+-rwxr-xr-x 1 root root         530  4월  8  2020 [01;32m/bin/remmina-gnome[0m
+-rwxr-xr-x 1 root root       61392  2월 29  2020 [01;32m/bin/rendercheck[0m
+-rwxr-xr-x 1 root root       14568  7월 21  2020 [01;32m/bin/renice[0m
+-rwxr-xr-x 1 root root         208  2월 14  2020 [01;32m/bin/routef[0m
+lrwxrwxrwx 1 root root          29  2월 22 14:23 [01;36m/bin/rrsync[0m -> [01;32m../share/rsync/scripts/rrsync[0m
+lrwxrwxrwx 1 root root          21  2월 22 14:23 [01;36m/bin/rsh[0m -> [01;32m/etc/alternatives/rsh[0m
+-rwxr-xr-x 1 root root        1469  2월 29  2020 [01;32m/bin/rstartd[0m
+-rwxr-xr-x 1 root root      516760 10월 15  2019 [01;32m/bin/rsync[0m
+-rwxr-xr-x 1 root root       10481 12월  7  2019 [01;32m/bin/savelog[0m
+-rwxr-xr-x 1 root root       55632  5월  4  2019 [01;32m/bin/sbattach[0m
+-rwxr-xr-x 1 root root       68144  5월  4  2019 [01;32m/bin/sbkeysync[0m
+-rwxr-xr-x 1 root root       56280  9월 17  2020 [01;32m/bin/scanimage[0m
+-rwxr-xr-x 1 root root          90 11월  3 16:31 [01;32m/bin/scp-dbus-service[0m
+-rwxr-xr-x 1 root root       51296  4월  8  2019 [01;32m/bin/sdiff[0m
+-rwxr-xr-x 1 root root        1349  9월 18  2019 [01;32m/bin/sdl-config[0m
+-rwxr-xr-x 1 root root     1203176  3월 14  2020 [01;32m/bin/seahorse[0m
+-rwxr-xr-x 1 root root      121288 12월 22  2018 [01;32m/bin/sed[0m
+lrwxrwxrwx 1 root root          11  2월 22 14:23 [01;36m/bin/see[0m -> [01;32mrun-mailcap[0m
+-rwxr-xr-x 1 root root       14328  3월 19  2018 [01;32m/bin/sessreg[0m
+-rwxr-xr-x 1 root root       27136  7월 21  2020 [01;32m/bin/setarch[0m
+-rwxr-xr-x 1 root root       14440  5월 10  2019 [01;32m/bin/setmetamode[0m
+-rwxr-xr-x 1 root root       30960  1월 26  2020 [01;32m/bin/setpci[0m
+-rwxr-xr-x 1 root root       14568  7월 21  2020 [01;32m/bin/setsid[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/sg[0m -> [37;41mnewgrp[0m
+lrwxrwxrwx 1 root root           4  2월 22 14:23 [01;36m/bin/sh[0m -> [01;32mdash[0m
+-rwxr-xr-x 1 root root       10232  3월 19  2018 [01;32m/bin/showrgb[0m
+-rwxr-xr-x 1 root root       63864  9월  5  2019 [01;32m/bin/shred[0m
+-rwxr-xr-x 1 root root       59736  9월  5  2019 [01;32m/bin/shuf[0m
+-rwxr-xr-x 1 root root       32816  3월 20  2020 [01;32m/bin/sieve[0m
+lrwxrwxrwx 1 root root          21  1월 22 00:23 [01;36m/bin/size[0m -> [01;32mx86_64-linux-gnu-size[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/slxdecode[0m
+-rwxr-xr-x 1 root root       43304  2월  2 17:21 [01;32m/bin/snapfuse[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/snice[0m -> [01;32mskill[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:23 [01;36m/bin/soffice[0m -> [01;32m../lib/libreoffice/program/soffice[0m
+-rwxr-xr-x 1 root root        4176 11월  3 23:08 [01;32m/bin/software-properties-gtk[0m
+-rwxr-xr-x 1 root root        1003  1월 20  2020 [01;32m/bin/spd-conf[0m
+-rwxr-xr-x 1 root root       35192 12월 16 20:04 [01;32m/bin/sprof[0m
+-rwxr-xr-x 1 root root      789448  3월  9 23:17 [01;32m/bin/ssh[0m
+-rwxr-xr-x 1 root root      370976  3월  9 23:17 [01;32m/bin/ssh-add[0m
+-rwxr-xr-x 1 root root       10658  2월 14  2020 [01;32m/bin/ssh-copy-id[0m
+-rwxr-xr-x 1 root root         409  2월 29  2020 [01;32m/bin/ssh-import-id[0m
+-rwxr-xr-x 1 root root         785  2월 29  2020 [01;32m/bin/ssh-import-id-gh[0m
+lrwxrwxrwx 1 root root           7  2월 22 14:23 [01;36m/bin/static-sh[0m -> [01;32mbusybox[0m
+-rwxr-xr-x 1 root root       51544  9월  5  2019 [01;32m/bin/stdbuf[0m
+-rwxr-xr-x 1 root root     1583592  4월 17  2020 [01;32m/bin/strace[0m
+-rwxr-xr-x 1 root root        1821  3월 19  2019 [01;32m/bin/strace-log-merge[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/sync[0m
+lrwxrwxrwx 1 root root          20  2월 22 14:23 [01;36m/bin/systemd[0m -> [01;32m/lib/systemd/systemd[0m
+-rwxr-xr-x 1 root root     1587584  1월  7 05:47 [01;32m/bin/systemd-analyze[0m
+-rwxr-xr-x 1 root root       14680  1월  7 05:47 [01;32m/bin/systemd-ask-password[0m
+-rwxr-xr-x 1 root root       26848  1월  7 05:47 [01;32m/bin/systemd-delta[0m
+-rwxr-xr-x 1 root root       22752  1월  7 05:47 [01;32m/bin/systemd-escape[0m
+-rwxr-xr-x 1 root root      104976  1월  7 05:47 [01;32m/bin/systemd-hwdb[0m
+-rwxr-xr-x 1 root root       18656  1월  7 05:47 [01;32m/bin/systemd-path[0m
+lrwxrwxrwx 1 root root          10  2월 22 14:23 [01;36m/bin/systemd-resolve[0m -> [01;32mresolvectl[0m
+-rwxr-xr-x 1 root root       26848  1월  7 05:47 [01;32m/bin/systemd-socket-activate[0m
+-rwxr-xr-x 1 root root       22760  1월  7 05:47 [01;32m/bin/systemd-stdio-bridge[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/tac[0m
+-rwxr-xr-x 1 root root      447896  7월 17  2019 [01;32m/bin/tcsh[0m
+-rwxr-xr-x 1 root root       43384  9월  5  2019 [01;32m/bin/tee[0m
+-rwxr-xr-x 1 root root       14360 12월  7  2019 [01;32m/bin/tempfile[0m
+lrwxrwxrwx 1 root root          33  2월 22 14:23 [01;36m/bin/thunderbird[0m -> [01;32m../lib/thunderbird/thunderbird.sh[0m[K
+-rwxr-xr-x 1 root root       92584  2월 26  2020 [01;32m/bin/tic[0m
+-rwxr-xr-x 1 root root       35056  9월 10  2019 [01;32m/bin/tificc[0m
+-rwxr-xr-x 1 root root       14720  4월 22  2017 [01;32m/bin/time[0m
+-rwxr-xr-x 1 root root       22776  2월 27  2020 [01;32m/bin/tload[0m
+-rwxr-xr-x 1 root root       22840  2월 26  2020 [01;32m/bin/toe[0m
+-rwxr-xr-x 1 root root      100728  9월  5  2019 [01;32m/bin/touch[0m
+-rwxr-xr-x 1 root root       18584  1월 31  2020 [01;32m/bin/tracepath[0m
+-rwxr-xr-x 1 root root       39080  9월 10  2019 [01;32m/bin/transicc[0m
+-rwxr-xr-x 1 root root      858016  3월 26  2020 [01;32m/bin/transmission-gtk[0m
+-rwxr-xr-x 1 root root      753568  3월 21  2020 [01;32m/bin/troff[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/true[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/truncate[0m
+-rwxr-xr-x 1 root root       14648  4월 10  2020 [01;32m/bin/ttfread[0m
+lrwxrwxrwx 1 root root          16  2월 22 14:23 [01;36m/bin/ua[0m -> [01;32mubuntu-advantage[0m
+-rwxr-xr-x 1 root root         442  3월 31  2020 [01;32m/bin/ubuntu-advantage[0m
+lrwxrwxrwx 1 root root          10  2월 22 14:23 [01;36m/bin/ubuntu-bug[0m -> [01;32mapport-bug[0m
+-rwxr-xr-x 1 root root       40685 12월 14  2018 [01;32m/bin/ucf[0m
+-rwxr-xr-x 1 root root       39288  9월  5  2019 [01;32m/bin/uname[0m
+-rwxr-xr-x 1 root root       99313  7월 22  2020 [01;32m/bin/unattended-upgrade[0m
+-rwxr-xr-x 1 root root       43384  9월  5  2019 [01;32m/bin/unexpand[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/unlink[0m
+lrwxrwxrwx 1 root root          24  2월 22 14:23 [01;36m/bin/unlzma[0m -> [01;32m/etc/alternatives/unlzma[0m
+-rwxr-xr-x 1 root root          52  8월 25  2020 [01;32m/bin/unopkg[0m
+-rwxr-xr-x 1 root root       43448  7월 21  2020 [01;32m/bin/unshare[0m
+-rwxr-xr-x 1 root root       26856  4월 21  2020 [01;32m/bin/update-desktop-database[0m
+-rwxr-xr-x 1 root root       59768  3월 25  2020 [01;32m/bin/update-mime-database[0m
+-rwxr-xr-x 1 root root       14568  2월 27  2020 [01;32m/bin/uptime[0m
+-rwxr-xr-x 1 root root        2936  7월  2  2019 [01;32m/bin/usb-creator-gtk[0m
+-rwxr-xr-x 1 root root       14656  1월 31  2020 [01;32m/bin/usb_printerid[0m
+-rwxr-xr-x 1 root root       39144  7월 21  2020 [01;32m/bin/uuidparse[0m
+lrwxrwxrwx 1 root root          20  2월 22 14:23 [01;36m/bin/vi[0m -> [01;32m/etc/alternatives/vi[0m
+-rwxr-xr-x 1 root root     2906824  4월 15  2020 [01;32m/bin/vim.basic[0m
+lrwxrwxrwx 1 root root          25  3월 12 14:55 [01;36m/bin/vimdiff[0m -> [01;32m/etc/alternatives/vimdiff[0m
+-rwxr-xr-x 1 root root       14488  7월  8  2019 [01;32m/bin/volname[0m
+-rwxr-xr-x 1 root root       27208  2월 27  2020 [01;32m/bin/watch[0m
+-rwxr-xr-x 1 root root       18744  3월 11  2020 [01;32m/bin/watchgnupg[0m
+-rwxr-xr-x 1 root root       47456  9월  5  2019 [01;32m/bin/wc[0m
+-rwxr-xr-x 1 root root         946 12월  7  2019 [01;32m/bin/which[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/whoami[0m
+-rwxr-xr-x 1 root root       68592  2월  5 11:37 [01;32m/bin/whoopsie[0m
+-rwxr-xr-x 1 root root       80200  3월  1 22:44 [01;32m/bin/wpa_passphrase[0m
+lrwxrwxrwx 1 root root          23  2월 22 14:23 [01;36m/bin/write[0m -> [30;43m/etc/alternatives/write[0m
+-rwxr-xr-x 1 root root      202200  2월 29  2020 [01;32m/bin/x11perf[0m
+-rwxr-xr-x 1 root root       35536  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-addr2line[0m
+lrwxrwxrwx 1 root root           5  3월 20  2020 [01;36m/bin/x86_64-linux-gnu-gcc[0m -> [01;32mgcc-9[0m
+lrwxrwxrwx 1 root root          12  3월 20  2020 [01;36m/bin/x86_64-linux-gnu-gcc-ranlib[0m -> [01;32mgcc-ranlib-9[0m
+lrwxrwxrwx 1 root root          24  1월 22 00:23 [01;36m/bin/x86_64-linux-gnu-gold[0m -> [01;32mx86_64-linux-gnu-ld.gold[0m[K
+-rwxr-xr-x 1 root root      102280  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-gprof[0m
+lrwxrwxrwx 1 root root          23  1월 22 00:23 [01;36m/bin/x86_64-linux-gnu-ld[0m -> [01;32mx86_64-linux-gnu-ld.bfd[0m
+-rwxr-xr-x 1 root root     1740384  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-ld.bfd[0m
+-rwxr-xr-x 1 root root     2312584  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-ld.gold[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:23 [01;36m/bin/x86_64-linux-gnu-pkg-config[0m -> [01;32m/usr/share/pkg-config-crosswrapper[0m[K
+-rwxr-xr-x 1 root root       68056  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-ranlib[0m
+-rwxr-xr-x 1 root root      658360  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-readelf[0m
+-rwxr-xr-x 1 root root       35280  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-size[0m
+-rwxr-xr-x 1 root root       55552  2월  7  2020 [01;32m/bin/x86_64-pc-linux-gnu-pkg-config[0m
+-rwxr-xr-x 1 root root       56288  8월 25  2019 [01;32m/bin/xauth[0m
+-rwxr-xr-x 1 root root       24768  2월 29  2020 [01;32m/bin/xbiff[0m
+-rwxr-xr-x 1 root root      166384  3월  4  2020 [01;32m/bin/xbrlapi[0m
+-rwxr-xr-x 1 root root       48624  2월 29  2020 [01;32m/bin/xcalc[0m
+-rwxr-xr-x 1 root root       27296  2월 29  2020 [01;32m/bin/xclipboard[0m
+-rwxr-xr-x 1 root root       66704  2월 29  2020 [01;32m/bin/xclock[0m
+-rwxr-xr-x 1 root root       31480  3월 19  2018 [01;32m/bin/xcmsdb[0m
+-rwxr-xr-x 1 root root       27936  2월 29  2020 [01;32m/bin/xconsole[0m
+-rwxr-xr-x 1 root root       30028  1월 11 22:39 [01;32m/bin/xdg-icon-resource[0m
+-rwxr-xr-x 1 root root       42122  1월 11 22:39 [01;32m/bin/xdg-mime[0m
+-rwxr-xr-x 1 root root       22600 12월 28  2018 [01;32m/bin/xdg-user-dirs-gtk-update[0m
+-rwxr-xr-x 1 root root       26696  1월 24  2019 [01;32m/bin/xdg-user-dirs-update[0m
+-rwxr-xr-x 1 root root       41024  2월 29  2020 [01;32m/bin/xfd[0m
+-rwxr-xr-x 1 root root       10232  3월 19  2018 [01;32m/bin/xgamma[0m
+-rwxr-xr-x 1 root root       80304  2월 29  2020 [01;32m/bin/xgc[0m
+-rwxr-xr-x 1 root root       43408  2월 29  2020 [01;32m/bin/xkbevd[0m
+-rwxr-xr-x 1 root root       23736  2월 29  2020 [01;32m/bin/xkbwatch[0m
+-rwxr-xr-x 1 root root       16982  3월 19  2018 [01;32m/bin/xkeystone[0m
+-rwxr-xr-x 1 root root       27648  2월 29  2020 [01;32m/bin/xload[0m
+-rwxr-xr-x 1 root root       49584  2월 29  2020 [01;32m/bin/xmag[0m
+-rwxr-xr-x 1 root root       27840  2월 29  2020 [01;32m/bin/xmessage[0m
+-rwxr-xr-x 1 root root       19024  2월 29  2020 [01;32m/bin/xmore[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/xqxdecode[0m
+-rwxr-xr-x 1 root root       30808  3월 19  2018 [01;32m/bin/xrdb[0m
+-rwxr-xr-x 1 root root       10312  3월 19  2018 [01;32m/bin/xrefresh[0m
+-rwxr-xr-x 1 root root       10232  3월 19  2018 [01;32m/bin/xsetmode[0m
+-rwxr-xr-x 1 root root       40360  3월 19  2018 [01;32m/bin/xvidtune[0m
+-rwxr-xr-x 1 root root       39232  2월 29  2020 [01;32m/bin/xwd[0m
+-rwxr-xr-x 1 root root       35120  2월 29  2020 [01;32m/bin/xwud[0m
+-rwxr-xr-x 1 root root       18712  4월 15  2020 [01;32m/bin/xxd[0m
+-rwxr-xr-x 1 root root        6632  4월 21  2020 [01;32m/bin/xzdiff[0m
+-rwxr-xr-x 1 root root        2161  4월 21  2020 [01;32m/bin/xzmore[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/ypdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root        5880 12월 14  2019 [01;32m/bin/zdiff[0m
+-rwxr-xr-x 1 root root        2081 12월 14  2019 [01;32m/bin/zforce[0m
+-rwxr-xr-x 1 root root       93816  4월 22  2017 [01;32m/bin/zipcloak[0m
+-rwxr-xr-x 1 root root       89488  4월 22  2017 [01;32m/bin/zipnote[0m
+-rwxr-xr-x 1 root root       26952  1월 31  2020 [01;32m/bin/zjsdecode[0m
+-rwxr-xr-x 1 root root        1842 12월 14  2019 [01;32m/bin/zmore[0m
+]0;u20013@solgae: ~u20013@solgae:~$ ls -l /bin/p???
+lrwxrwxrwx 1 root root       6  3월 13  2020 [0m[01;36m/bin/pdb2[0m -> [01;32mpdb2.7[0m
+lrwxrwxrwx 1 root root       6  2월 22 14:23 [01;36m/bin/pdb3[0m -> [01;32mpdb3.8[0m
+-rwxr-xr-x 1 root root 3478464 10월 19 19:56 [01;32m/bin/perl[0m
+lrwxrwxrwx 1 root root      22  2월 22 14:23 [01;36m/bin/pftp[0m -> [01;32m/etc/alternatives/pftp[0m
+lrwxrwxrwx 1 root root      22  2월 22 14:23 [01;36m/bin/pico[0m -> [01;32m/etc/alternatives/pico[0m
+-rwxr-xr-x 1 root root   72776  1월 31  2020 [01;32m/bin/ping[0m
+-rwxr-xr-x 1 root root   22904 12월 16 20:04 [01;32m/bin/pldd[0m
+-rwxr-xr-x 1 root root     146  2월  9  2019 [01;32m/bin/plog[0m
+-rwxr-xr-x 1 root root   35064  2월 27  2020 [01;32m/bin/pmap[0m
+-rwxr-xr-x 1 root root    2837  2월  9  2019 [01;32m/bin/poff[0m
+-rwxr-xr-x 1 root root  117280  4월 24  2020 [01;32m/bin/ppdc[0m
+-rwxr-xr-x 1 root root  117280  4월 24  2020 [01;32m/bin/ppdi[0m
+-rwxr-xr-x 1 root root     404  8월 22  2020 [01;32m/bin/pphs[0m
+-rwxr-xr-x 1 root root    3549 10월 19 19:56 [01;32m/bin/ptar[0m
+-rwxr-xr-x 1 root root   14568  2월 27  2020 [01;32m/bin/pwdx[0m
+]0;u20013@solgae: ~u20013@solgae:~$ ls -l /bin/*[a-k]
+-rwxr-xr-x 1 root root         274  1월 17 18:13 [0m[01;32m/bin/Xorg[0m
+-rwxr-xr-x 1 root root     2324456  1월 17 18:13 [01;32m/bin/Xwayland[0m
+-rwxr-xr-x 1 root root       31248  5월 20  2020 [01;32m/bin/aa-enabled[0m
+-rwxr-xr-x 1 root root       35344  5월 20  2020 [01;32m/bin/aa-exec[0m
+lrwxrwxrwx 1 root root          26  1월 22 00:23 [01;36m/bin/addr2line[0m -> [01;32mx86_64-linux-gnu-addr2line[0m
+-rwxr-xr-x 1 root root       14720 10월 17 00:50 [01;32m/bin/alsatplg[0m
+-rwxr-xr-x 1 root root       31112 10월 17 00:50 [01;32m/bin/amidi[0m
+-rwxr-xr-x 1 root root        2668  3월 22  2020 [01;32m/bin/amuFormat.sh[0m
+-rwxr-xr-x 1 root root         274 10월  2  2017 [01;32m/bin/apg[0m
+-rwxr-xr-x 1 root root       27016 10월 17 00:50 [01;32m/bin/aplaymidi[0m
+-rwxr-xr-x 1 root root        2558 12월  5  2019 [01;32m/bin/apport-bug[0m
+-rwxr-xr-x 1 root root       13367  1월 26 21:21 [01;32m/bin/apport-cli[0m
+-rwxr-xr-x 1 root root        2068  1월 26 21:21 [01;32m/bin/apport-unpack[0m
+-rwxr-xr-x 1 root root       67816  3월 15  2020 [01;32m/bin/appstreamcli[0m
+-rwxr-xr-x 1 root root       88536  1월 14 20:49 [01;32m/bin/apt-cache[0m
+-rwxr-xr-x 1 root root       27016  1월 14 20:49 [01;32m/bin/apt-config[0m
+-rwxr-xr-x 1 root root      281056  1월 14 20:49 [01;32m/bin/apt-ftparchive[0m
+-rwxr-xr-x 1 root root       63960  1월 14 20:49 [01;32m/bin/apt-mark[0m
+-rwxr-xr-x 1 root root        1544  1월 25  2020 [01;32m/bin/apturl-gtk[0m
+-rwxr-xr-x 1 root root       39288  9월  5  2019 [01;32m/bin/arch[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/arecord[0m -> [01;32maplay[0m
+-rwxr-xr-x 1 root root       31120 10월 17 00:50 [01;32m/bin/arecordmidi[0m
+-rwxr-xr-x 1 root root       14768  1월  3  2020 [01;32m/bin/autoconf[0m
+-rwxr-xr-x 1 root root       32671  1월  3  2020 [01;32m/bin/autom4te[0m
+lrwxrwxrwx 1 root root          26  3월 31 17:28 [01;36m/bin/automake[0m -> [01;32m/etc/alternatives/automake[0m
+-rwxr-xr-x 1 root root       21163  1월  3  2020 [01;32m/bin/autoreconf[0m
+-rwxr-xr-x 1 root root       33874  1월  3  2020 [01;32m/bin/autoupdate[0m
+-rwxr-xr-x 1 root root       30968  4월  8  2020 [01;32m/bin/avahi-browse[0m
+-rwxr-xr-x 1 root root       26864  4월  8  2020 [01;32m/bin/avahi-publish[0m
+lrwxrwxrwx 1 root root          13  2월 22 14:23 [01;36m/bin/avahi-publish-service[0m -> [01;32mavahi-publish[0m
+-rwxr-xr-x 1 root root       22768  4월  8  2020 [01;32m/bin/avahi-resolve[0m
+lrwxrwxrwx 1 root root          13  2월 22 14:23 [01;36m/bin/avahi-resolve-host-name[0m -> [01;32mavahi-resolve[0m
+-rwxr-xr-x 1 root root       14576  4월  8  2020 [01;32m/bin/avahi-set-host-name[0m
+lrwxrwxrwx 1 root root          21  2월 22 14:23 [01;36m/bin/awk[0m -> [01;32m/etc/alternatives/awk[0m
+-rwxr-xr-x 1 root root      207296  9월 13  2019 [01;32m/bin/baobab[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/basename[0m
+-rwxr-xr-x 1 root root     1183448  6월 19  2020 [01;32m/bin/bash[0m
+-rwxr-xr-x 1 root root        6794  6월 19  2020 [01;32m/bin/bashbug[0m
+-rwxr-xr-x 1 root root      101064  1월 15  2019 [01;32m/bin/bc[0m
+-rwxr-xr-x 1 root root      197080  4월  3  2020 [01;32m/bin/bccmd[0m
+-rwxr-xr-x 1 root root       43128  3월 19  2018 [01;32m/bin/bdftopcf[0m
+-rwxr-xr-x 1 root root       10232  3월 19  2018 [01;32m/bin/bdftruncate[0m
+-rwxr-xr-x 1 root root       14664  2월 29  2020 [01;32m/bin/bmtoa[0m
+-rwxr-xr-x 1 root root      248544  3월  4  2020 [01;32m/bin/brltty-ctb[0m
+-rwxr-xr-x 1 root root      219936  3월  4  2020 [01;32m/bin/brltty-ttb[0m
+-rwxr-xr-x 1 root root      121224  5월  8  2020 [01;32m/bin/broadwayd[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/browse[0m -> [01;32mxdg-open[0m
+-rwxr-sr-x 1 root tty        14488  3월 30  2020 [30;43m/bin/bsd-write[0m
+-rwxr-xr-x 1 root root       76008  4월  3  2020 [01;32m/bin/btattach[0m
+-rwxr-xr-x 1 root root        2227  9월  6  2019 [01;32m/bin/bzdiff[0m
+-rwxr-xr-x 1 root root        4877  9월  4  2019 [01;32m/bin/bzexe[0m
+-rwxr-xr-x 1 root root        1297  9월  6  2019 [01;32m/bin/bzmore[0m
+-rwxr-xr-x 1 root root         428  5월  7  2006 [01;32m/bin/c89-gcc[0m
+-rwxr-xr-x 1 root root         454  4월 11  2011 [01;32m/bin/c99-gcc[0m
+-rwxr-xr-x 1 root root        6332  3월 22 20:37 [01;32m/bin/c_rehash[0m
+-rwxr-xr-x 1 root root        1669  3월 25  2020 [01;32m/bin/caca-config[0m
+-rwxr-xr-x 1 root root       27688  8월 12  2016 [01;32m/bin/calibrate_ppa[0m
+lrwxrwxrwx 1 root root          20  3월 11 20:16 [01;36m/bin/cc[0m -> [01;32m/etc/alternatives/cc[0m
+-rwxr-xr-x 1 root root       26928  3월 20  2020 [01;32m/bin/cd-create-profile[0m
+-rwxr-xr-x 1 root root       26928  3월 20  2020 [01;32m/bin/cd-fix-profile[0m
+-rwxr-sr-x 1 root shadow     84512  5월 28  2020 [30;43m/bin/chage[0m
+-rwxr-xr-x 1 root root      272776  9월 25  2020 [01;32m/bin/cheese[0m
+-rwxr-xr-x 1 root root       63864  9월  5  2019 [01;32m/bin/chmod[0m
+-rwsr-xr-x 1 root root       53040  5월 28  2020 [37;41m/bin/chsh[0m
+-rwxr-xr-x 1 root root       14568  6월 19  2020 [01;32m/bin/clear_console[0m
+-rwxr-xr-x 1 root root       14328  5월 10  2019 [01;32m/bin/codepage[0m
+lrwxrwxrwx 1 root root          11  2월 22 14:23 [01;36m/bin/compose[0m -> [01;32mrun-mailcap[0m
+-rwxr-sr-x 1 root crontab    43720  2월 14  2020 [30;43m/bin/crontab[0m
+lrwxrwxrwx 1 root root          21  4월  5 09:08 [01;36m/bin/csh[0m -> [01;32m/etc/alternatives/csh[0m
+-rwxr-xr-x 1 root root       63872  4월 24  2020 [01;32m/bin/cupstestppd[0m
+-rwxr-xr-x 1 root root      129816  7월 19  2019 [01;32m/bin/dash[0m
+-rwxr-xr-x 1 root root      108920  9월  5  2019 [01;32m/bin/date[0m
+-rwxr-xr-x 1 root root       34960  6월 12  2020 [01;32m/bin/dbus-launch[0m
+-rwxr-xr-x 1 root root       30864  6월 12  2020 [01;32m/bin/dbus-send[0m
+-rwxr-xr-x 1 root root       55392  1월 15  2019 [01;32m/bin/dc[0m
+-rwxr-xr-x 1 root root       55528  3월 11  2020 [01;32m/bin/dconf[0m
+-rwxr-xr-x 1 root root       80256  9월  5  2019 [01;32m/bin/dd[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/ddstdecode[0m
+-rwxr-xr-x 1 root root        4430  6월 22  2019 [01;32m/bin/deb-systemd-invoke[0m
+-rwxr-xr-x 1 root root        2859  8월  3  2019 [01;32m/bin/debconf[0m
+-rwxr-xr-x 1 root root         608  8월  3  2019 [01;32m/bin/debconf-communicate[0m
+-rwxr-xr-x 1 root root        1719  8월  3  2019 [01;32m/bin/debconf-copydb[0m
+-rwxr-xr-x 1 root root         647  8월  3  2019 [01;32m/bin/debconf-escape[0m
+-rwxr-xr-x 1 root root       82344  4월 21  2020 [01;32m/bin/desktop-file-validate[0m
+-rwxr-xr-x 1 root root       93128  9월  5  2019 [01;32m/bin/df[0m
+-rwxr-xr-x 1 root root        1836  2월 25  2018 [01;32m/bin/dh_autotools-dev_restoreconfig[0m
+-rwxr-xr-x 1 root root        1849  2월 25  2018 [01;32m/bin/dh_autotools-dev_updateconfig[0m
+-rwxr-xr-x 1 root root      219480  4월  8  2019 [01;32m/bin/diff[0m
+-rwxr-xr-x 1 root root      138032  2월 17 05:08 [01;32m/bin/dig[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/dirname[0m
+-rwxr-xr-x 1 root root       84440  7월 21  2020 [01;32m/bin/dmesg[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/dnsdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root        9314  1월 20 06:47 [01;32m/bin/do-release-upgrade[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/domainname[0m -> [01;32mhostname[0m
+lrwxrwxrwx 1 root root          25  4월  5 11:02 [01;36m/bin/dotlock[0m -> [30;43m/etc/alternatives/dotlock[0m
+-rwxr-xr-x 1 root root      309944  3월 23  2020 [01;32m/bin/dpkg[0m
+-rwxr-xr-x 1 root root      178728  3월 23  2020 [01;32m/bin/dpkg-deb[0m
+-rwxr-xr-x 1 root root       63760  3월 23  2020 [01;32m/bin/dpkg-statoverride[0m
+-rwxr-xr-x 1 root root        1007  8월 22  2020 [01;32m/bin/dvipdf[0m
+lrwxrwxrwx 1 root root          25  3월 31 09:00 [01;36m/bin/ebrowse[0m -> [01;32m/etc/alternatives/ebrowse[0m
+-rwxr-xr-x 1 root root       55504  2월 22  2020 [01;32m/bin/ed[0m
+-rwxr-xr-x 1 root root    39991720  3월 26  2020 [01;32m/bin/emacs-gtk[0m
+-rwxr-xr-x 1 root root       18808  7월  6  2020 [01;32m/bin/eog[0m
+-rwxr-xr-x 1 root root      482984  7월  7  2020 [01;32m/bin/evince[0m
+-rwxr-xr-x 1 root root       43384  9월  5  2019 [01;32m/bin/expand[0m
+-rwxr-xr-x 1 root root       23136  5월 28  2020 [01;32m/bin/faillog[0m
+-rwxr-xr-x 1 root root       35048  7월 21  2020 [01;32m/bin/fallocate[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/false[0m
+-rwxr-xr-x 1 root root       22760  4월  6  2020 [01;32m/bin/fc-cache[0m
+-rwxr-xr-x 1 root root       14568  4월  6  2020 [01;32m/bin/fc-match[0m
+-rwxr-xr-x 1 root root       14568  4월  6  2020 [01;32m/bin/fc-validate[0m
+-rwxr-xr-x 1 root root       14408  5월 10  2019 [01;32m/bin/fgconsole[0m
+-rwxr-xr-x 1 root root       27104  1월 17  2020 [01;32m/bin/file[0m
+-rwxr-xr-x 1 root root       35096  7월 21  2020 [01;32m/bin/fincore[0m
+-rwxr-xr-x 1 root root      320160  2월 18  2020 [01;32m/bin/find[0m
+-rwxr-xr-x 1 root root       35128  7월 21  2020 [01;32m/bin/flock[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/fold[0m
+-rwxr-xr-x 1 root root       44264  1월 31  2020 [01;32m/bin/foo2hiperc[0m
+-rwxr-xr-x 1 root root       45304  1월 31  2020 [01;32m/bin/foo2lava[0m
+-rwxr-xr-x 1 root root       40360  1월 31  2020 [01;32m/bin/foo2oak[0m
+-rwxr-xr-x 1 root root       14640  4월 16  2020 [01;32m/bin/fprintd-delete[0m
+-rwxr-xr-x 1 root root       26864  2월 27  2020 [01;32m/bin/free[0m
+lrwxrwxrwx 1 root root          26  2월 22 14:23 [01;36m/bin/futurize[0m -> [01;32m/etc/alternatives/futurize[0m
+-rwxr-xr-x 1 root root       84488  6월 19  2020 [01;32m/bin/fwupdate[0m
+-rwxr-xr-x 1 root root       22912  6월 19  2020 [01;32m/bin/fwupdtpmevlog[0m
+-rwxr-xr-x 1 root root      166392  5월 18  2020 [01;32m/bin/gamemoded[0m
+-rwxr-xr-x 1 root root       14488  9월 17  2020 [01;32m/bin/gamma4scanimage[0m
+-rwxr-xr-x 1 root root      252304  3월  9  2020 [01;32m/bin/gcalccmd[0m
+lrwxrwxrwx 1 root root           5  3월 20  2020 [01;36m/bin/gcc[0m -> [01;32mgcc-9[0m
+lrwxrwxrwx 1 root root          12  3월 20  2020 [01;36m/bin/gcc-ranlib[0m -> [01;32mgcc-ranlib-9[0m
+-rwxr-xr-x 1 root root        3477  8월  4  2020 [01;32m/bin/gcore[0m
+-rwxr-xr-x 1 root root     8440200  8월  4  2020 [01;32m/bin/gdb[0m
+-rwxr-xr-x 1 root root         126  8월  4  2020 [01;32m/bin/gdbtui[0m
+-rwxr-xr-x 1 root root        9228  2월 27  2020 [01;32m/bin/gdialog[0m
+-rwxr-xr-x 1 root root       14672  2월 18 23:41 [01;32m/bin/gdk-pixbuf-csource[0m
+-rwxr-xr-x 1 root root       14656  2월 18 23:41 [01;32m/bin/gdk-pixbuf-pixdata[0m
+-rwxr-xr-x 1 root root      657304  2월 18  2020 [01;32m/bin/genisoimage[0m
+-rwxr-xr-x 1 root root       35112 12월 16 20:04 [01;32m/bin/getconf[0m
+-rwxr-xr-x 1 root root        4629  3월 23  2020 [01;32m/bin/gettext.sh[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/gipddecode[0m
+lrwxrwxrwx 1 root root           3  3월  4 22:01 [01;36m/bin/git-receive-pack[0m -> [01;32mgit[0m
+lrwxrwxrwx 1 root root           3  3월  4 22:01 [01;36m/bin/git-upload-archive[0m -> [01;32mgit[0m
+lrwxrwxrwx 1 root root           3  3월  4 22:01 [01;36m/bin/git-upload-pack[0m -> [01;32mgit[0m
+-rwxr-xr-x 1 root root       23128  6월  3  2020 [01;32m/bin/gjs-console[0m
+-rwxr-xr-x 1 root root        5386  3월 13 01:38 [01;32m/bin/glib-gettextize[0m
+lrwxrwxrwx 1 root root          15  2월 22 14:23 [01;36m/bin/gnome-keyring[0m -> [01;32mgnome-keyring-3[0m
+-rwxr-xr-x 1 root root          91  4월  8  2020 [01;32m/bin/gnome-session-remmina[0m
+lrwxrwxrwx 1 root root          21  1월 22 00:23 [01;36m/bin/gold[0m -> [01;32mx86_64-linux-gnu-gold[0m
+-rwsr-xr-x 1 root root       88464  5월 28  2020 [37;41m/bin/gpasswd[0m
+-rwxr-xr-x 1 root root     1066992  3월 11  2020 [01;32m/bin/gpg[0m
+-rwxr-xr-x 1 root root      895272  3월 11  2020 [01;32m/bin/gpgcompose[0m
+-rwxr-xr-x 1 root root      178848  3월 11  2020 [01;32m/bin/gpgconf[0m
+lrwxrwxrwx 1 root root           3  2월 22 14:23 [01;36m/bin/gpic[0m -> [01;32mpic[0m
+lrwxrwxrwx 1 root root          22  1월 22 00:23 [01;36m/bin/gprof[0m -> [01;32mx86_64-linux-gnu-gprof[0m
+-rwxr-xr-x 1 root root       22840  3월 13 01:38 [01;32m/bin/gresource[0m
+-rwxr-xr-x 1 root root      124448  3월 21  2020 [01;32m/bin/groff[0m
+-rwxr-xr-x 1 root root        2776  3월 21  2020 [01;32m/bin/grog[0m
+-rwxr-xr-x 1 root root      799104  1월 13 23:12 [01;32m/bin/grub-file[0m
+-rwxr-xr-x 1 root root      249712  1월 13 23:12 [01;32m/bin/grub-glue-efi[0m
+-rwxr-xr-x 1 root root      233600  1월 13 23:12 [01;32m/bin/grub-menulst2cfg[0m
+-rwxr-xr-x 1 root root      357328  1월 13 23:12 [01;32m/bin/grub-mkimage[0m
+-rwxr-xr-x 1 root root      245328  1월 13 23:12 [01;32m/bin/grub-mkrelpath[0m
+-rwxr-xr-x 1 root root      977200  1월 13 23:12 [01;32m/bin/grub-mkrescue[0m
+-rwxr-xr-x 1 root root      489328  1월 13 23:12 [01;32m/bin/grub-mkstandalone[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:23 [01;36m/bin/grub-ntldr-img[0m -> [01;32m../lib/grub/i386-pc/grub-ntldr-img[0m[K
+-rwxr-xr-x 1 root root      278224  1월 13 23:12 [01;32m/bin/grub-script-check[0m
+-rwxr-xr-x 1 root root      759056  1월 13 23:12 [01;32m/bin/grub-syslinux2cfg[0m
+-rwxr-xr-x 1 root root         350  8월 22  2020 [01;32m/bin/gsbj[0m
+-rwxr-xr-x 1 root root         352  8월 22  2020 [01;32m/bin/gsdj[0m
+-rwxr-xr-x 1 root root         353  8월 22  2020 [01;32m/bin/gslj[0m
+-rwxr-xr-x 1 root root         277  8월 22  2020 [01;32m/bin/gsnd[0m
+-rwxr-xr-x 1 root root       18752  1월 17 18:13 [01;32m/bin/gtf[0m
+-rwxr-xr-x 1 root root       18856  5월  8  2020 [01;32m/bin/gtk-encode-symbolic-svg[0m
+-rwxr-xr-x 1 root root       18904  5월  8  2020 [01;32m/bin/gtk-launch[0m
+-rwxr-xr-x 1 root root       39552  5월  8  2020 [01;32m/bin/gtk-update-icon-cache[0m
+-rwxr-xr-x 1 root root         275  4월 15  2020 [01;32m/bin/gvfs-mime[0m
+-rwxr-xr-x 1 root root         281  4월 15  2020 [01;32m/bin/gvfs-monitor-file[0m
+-rwxr-xr-x 1 root root         275  4월 15  2020 [01;32m/bin/gvfs-move[0m
+-rwxr-xr-x 1 root root         279  4월 15  2020 [01;32m/bin/gvfs-rename[0m
+-rwxr-xr-x 1 root root         275  4월 15  2020 [01;32m/bin/gvfs-save[0m
+-rwxr-xr-x 1 root root         273  4월 15  2020 [01;32m/bin/gvfs-set-attribute[0m
+-rwxr-xr-x 1 root root         277  4월 15  2020 [01;32m/bin/gvfs-trash[0m
+-rwxr-xr-x 1 root root         275  4월 15  2020 [01;32m/bin/gvfs-tree[0m
+-rwxr-xr-x 1 root root        6376 12월 14  2019 [01;32m/bin/gzexe[0m
+-rwxr-xr-x 1 root root       29224 10월 19 19:56 [01;32m/bin/h2ph[0m
+-rwxr-xr-x 1 root root       26944  1월 31  2020 [01;32m/bin/hbpldecode[0m
+-rwxr-xr-x 1 root root      141400  4월  3  2020 [01;32m/bin/hciattach[0m
+-rwxr-xr-x 1 root root      200888  4월  3  2020 [01;32m/bin/hciconfig[0m
+lrwxrwxrwx 1 root root           7  2월 22 14:23 [01;36m/bin/hd[0m -> [01;32mhexdump[0m
+-rwxr-xr-x 1 root root       47480  9월  5  2019 [01;32m/bin/head[0m
+-rwxr-xr-x 1 root root       18664  4월  3  2020 [01;32m/bin/hex2hcd[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/hipercdecode[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/hostid[0m
+-rwxr-xr-x 1 root root       26856 11월  7  2019 [01;32m/bin/hostname[0m
+lrwxrwxrwx 1 root root          23  2월 22 14:23 [01;36m/bin/hp-check[0m -> [01;32m../share/hplip/check.py[0m
+lrwxrwxrwx 1 root root          26  2월 22 14:23 [01;36m/bin/hp-firmware[0m -> [01;32m../share/hplip/firmware.py[0m
+lrwxrwxrwx 1 root root          28  2월 22 14:23 [01;36m/bin/hp-logcapture[0m -> [01;32m../share/hplip/logcapture.py[0m
+lrwxrwxrwx 1 root root          25  2월 22 14:23 [01;36m/bin/hp-makeuri[0m -> [01;32m../share/hplip/makeuri.py[0m
+lrwxrwxrwx 1 root root          27  2월 22 14:23 [01;36m/bin/hp-pkservice[0m -> [01;32m../share/hplip/pkservice.py[0m
+lrwxrwxrwx 1 root root          23  2월 22 14:23 [01;36m/bin/hp-probe[0m -> [01;32m../share/hplip/probe.py[0m
+lrwxrwxrwx 1 root root          26  2월 22 14:23 [01;36m/bin/hp-testpage[0m -> [01;32m../share/hplip/testpage.py[0m
+lrwxrwxrwx 1 root root          26  2월 22 14:23 [01;36m/bin/hp-timedate[0m -> [01;32m../share/hplip/timedate.py[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:25 [01;36m/bin/i686-linux-gnu-pkg-config[0m -> [01;32m/usr/share/pkg-config-crosswrapper[0m[K
+-rwxr-xr-x 1 root root        1141  2월 17  2020 [01;32m/bin/ibus-table-createdb[0m
+-rwxr-xr-x 1 root root       39032  3월 19  2018 [01;32m/bin/iceauth[0m
+-rwxr-xr-x 1 root root       47480  9월  5  2019 [01;32m/bin/id[0m
+-rwxr-xr-x 1 root root       11009  3월 31  2019 [01;32m/bin/im-config[0m
+-rwxr-xr-x 1 root root        1920  3월 31  2019 [01;32m/bin/im-launch[0m
+-rwxr-xr-x 1 root root       34488 10월 12  2019 [01;32m/bin/inputattach[0m
+-rwxr-xr-x 1 root root        4370 10월 19 19:56 [01;32m/bin/instmodsh[0m
+-rwxr-xr-x 1 root root       30952  7월 21  2020 [01;32m/bin/ionice[0m
+-rwxr-xr-x 1 root root       35120  7월 21  2020 [01;32m/bin/ipcmk[0m
+-rwxr-xr-x 1 root root       22680  9월 26  2019 [01;32m/bin/ipod-read-sysinfo-extended[0m
+-rwxr-xr-x 1 root root       14488  9월 26  2019 [01;32m/bin/ipod-time-sync[0m
+-rwxr-xr-x 1 root root       43416  4월 24  2020 [01;32m/bin/ippfind[0m
+-rwxr-xr-x 1 root root       30896  3월 11  2020 [01;32m/bin/isdv4-serial-inputattach[0m
+-rwxr-xr-x 1 root root       34992  9월 10  2019 [01;32m/bin/jpgicc[0m
+-rwxr-xr-x 1 root root       14408  5월 10  2019 [01;32m/bin/kbd_mode[0m
+-rwxr-xr-x 1 root root         385  3월 14  2020 [01;32m/bin/keyring[0m
+-rwxr-xr-x 1 root root      174424  3월 12  2020 [01;32m/bin/kmod[0m
+-rwxr-xr-x 1 root root      102408  4월  3  2020 [01;32m/bin/l2ping[0m
+lrwxrwxrwx 1 root root           4  2월 22 14:23 [01;36m/bin/lastb[0m -> [01;32mlast[0m
+-rwxr-xr-x 1 root root       32416  5월 28  2020 [01;32m/bin/lastlog[0m
+-rwxr-xr-x 1 root root       22848  1월 31  2020 [01;32m/bin/lavadecode[0m
+-rwxr-xr-x 1 root root        7786 12월 14  2018 [01;32m/bin/lcf[0m
+lrwxrwxrwx 1 root root          19  1월 22 00:23 [01;36m/bin/ld[0m -> [01;32mx86_64-linux-gnu-ld[0m
+lrwxrwxrwx 1 root root          23  1월 22 00:23 [01;36m/bin/ld.bfd[0m -> [01;32mx86_64-linux-gnu-ld.bfd[0m
+lrwxrwxrwx 1 root root          24  1월 22 00:23 [01;36m/bin/ld.gold[0m -> [01;32mx86_64-linux-gnu-ld.gold[0m
+-rwxr-xr-x 1 root root        5427 12월 16 20:04 [01;32m/bin/ldd[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/lessfile[0m -> [01;32mlesspipe[0m
+-rwxr-xr-x 1 root root        8564  9월  3  2019 [01;32m/bin/lesspipe[0m
+-rwxr-xr-x 1 root root      101320  2월 26  2020 [01;32m/bin/lexgrog[0m
+-rwxr-xr-x 1 root root       15775 10월 19 19:56 [01;32m/bin/libnetcfg[0m
+lrwxrwxrwx 1 root root          15  2월  8  2020 [01;36m/bin/libpng-config[0m -> [01;32mlibpng16-config[0m
+-rwxr-xr-x 1 root root        2471  2월  8  2020 [01;32m/bin/libpng16-config[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:23 [01;36m/bin/libreoffice[0m -> [01;32m../lib/libreoffice/program/soffice[0m[K
+-rwxr-xr-x 1 root root      131332  3월  2  2020 [01;32m/bin/libtoolize[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/link[0m
+-rwxr-xr-x 1 root root       26840  9월 10  2019 [01;32m/bin/linkicc[0m
+-rwxr-xr-x 1 root root          59  8월 25  2020 [01;32m/bin/localc[0m
+-rwxr-xr-x 1 root root       58944 12월 16 20:04 [01;32m/bin/locale[0m
+-rwxr-xr-x 1 root root       14496  1월 27 18:40 [01;32m/bin/locale-check[0m
+-rwxr-xr-x 1 root root      334808 12월 16 20:04 [01;32m/bin/localedef[0m
+-rwxr-xr-x 1 root root          53  8월 25  2020 [01;32m/bin/loffice[0m
+-rwxr-xr-x 1 root root          64  8월 25  2020 [01;32m/bin/lofromtemplate[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/logname[0m
+-rwxr-xr-x 1 root root          59  8월 25  2020 [01;32m/bin/lomath[0m
+-rwxr-xr-x 1 root root       14728  3월 30  2020 [01;32m/bin/look[0m
+-rwxr-xr-x 1 root root          58  8월 25  2020 [01;32m/bin/loweb[0m
+-rwxr-xr-x 1 root root      117456  5월  3  2019 [01;32m/bin/lowntfs-3g[0m
+-rwxr-xr-x 1 root root       51192  6월  3  2017 [01;32m/bin/lp_solve[0m
+-rwxr-xr-x 1 root root        3638  8월 26  2019 [01;32m/bin/lsb_release[0m
+-rwxr-xr-x 1 root root      133352  7월 21  2020 [01;32m/bin/lsblk[0m
+-rwxr-xr-x 1 root root       96488  7월 21  2020 [01;32m/bin/lsipc[0m
+lrwxrwxrwx 1 root root           4  2월 22 14:23 [01;36m/bin/lsmod[0m -> [01;32mkmod[0m
+-rwxr-xr-x 1 root root      175744 12월 26 01:57 [01;32m/bin/lsof[0m
+-rwxr-xr-x 1 root root       94160  1월 26  2020 [01;32m/bin/lspci[0m
+-rwxr-xr-x 1 root root      248328 10월  2  2019 [01;32m/bin/lsusb[0m
+-rwxr-xr-x 1 root root      308560  2월  1  2019 [01;32m/bin/ltrace[0m
+-rwxr-xr-x 1 root root       10292 11월 30  2019 [01;32m/bin/lwp-download[0m
+lrwxrwxrwx 1 root root           3  2월 22 14:23 [01;36m/bin/lz4c[0m -> [01;32mlz4[0m
+lrwxrwxrwx 1 root root          24  2월 22 14:23 [01;36m/bin/lzdiff[0m -> [01;32m/etc/alternatives/lzdiff[0m
+lrwxrwxrwx 1 root root          22  2월 22 14:23 [01;36m/bin/lzma[0m -> [01;32m/etc/alternatives/lzma[0m
+lrwxrwxrwx 1 root root          24  2월 22 14:23 [01;36m/bin/lzmore[0m -> [01;32m/etc/alternatives/lzmore[0m
+-rwxr-xr-x 1 root root        3733 11월 21  2019 [01;32m/bin/m17n-db[0m
+-rwxr-xr-x 1 root root      230968  7월 28  2018 [01;32m/bin/make[0m
+-rwxr-xr-x 1 root root       27544  2월 26  2020 [01;32m/bin/man-recode[0m
+-rwxr-xr-x 1 root root      142432  2월 26  2020 [01;32m/bin/mandb[0m
+-rwxr-xr-x 1 root root       39632  2월 26  2020 [01;32m/bin/manpath[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mattrib[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root      162552  2월 17  2020 [01;32m/bin/mawk[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mcd[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root        1679  3월 22  2020 [01;32m/bin/mcheck[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mclasserase[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       35120  7월 21  2020 [01;32m/bin/mcookie[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mdeltree[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       51608  2월 17 05:08 [01;32m/bin/mdig[0m
+-rwxr-xr-x 1 root root       14568  7월 21  2020 [01;32m/bin/mesg[0m
+-rwxr-xr-x 1 root root        3060  3월 10  2020 [01;32m/bin/migrate-pubring-from-classic-gpg[0m
+-rwxr-xr-x 1 root root       12060  8월  7  2018 [01;32m/bin/mimetype[0m
+-rwxr-xr-x 1 root root       39440  3월 19  2018 [01;32m/bin/mkfontscale[0m
+-rwxr-xr-x 1 root root       72024  9월  5  2019 [01;32m/bin/mknod[0m
+-rwxr-xr-x 1 root root       31016  2월 18  2020 [01;32m/bin/mkzftree[0m
+-rwxr-xr-x 1 root root      234136  4월 11  2020 [01;32m/bin/mmcli[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mmd[0m -> [01;32mmtools[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mmove[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       43160  7월 21  2020 [01;32m/bin/more[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mrd[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       14656  1월 24  2020 [01;32m/bin/msexpand[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mshortname[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root        6497 12월 16 20:04 [01;32m/bin/mtrace[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/mtype[0m -> [01;32mmtools[0m
+-rwxr-xr-x 1 root root       35048  7월 21  2020 [01;32m/bin/namei[0m
+-rwxr-xr-x 1 root root       26928  6월  3  2020 [01;32m/bin/nautilus-autorun-software[0m
+lrwxrwxrwx 1 root root          22  2월 22 14:23 [01;36m/bin/nawk[0m -> [01;32m/etc/alternatives/nawk[0m
+lrwxrwxrwx 1 root root          20  2월 22 14:23 [01;36m/bin/nc[0m -> [01;32m/etc/alternatives/nc[0m
+-rwxr-xr-x 1 root root       43664  3월 10  2020 [01;32m/bin/nc.openbsd[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/nice[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/nisdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root       22832  9월 17  2020 [01;32m/bin/nm-online[0m
+-rwxr-xr-x 1 root root      859488  9월 17  2020 [01;32m/bin/nmcli[0m
+-rwxr-xr-x 1 root root      683392  9월 17  2020 [01;32m/bin/nmtui[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/nmtui-hostname[0m -> [01;32mnmtui[0m
+-rwxr-xr-x 1 root root       18672  3월 21  2020 [01;32m/bin/notify-send[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/nproc[0m
+-rwxr-xr-x 1 root root        3293  3월 21  2020 [01;32m/bin/nroff[0m
+-rwxr-xr-x 1 root root       72216  2월 17 05:08 [01;32m/bin/nsupdate[0m
+-rwxr-xr-x 1 root root      158448  5월  3  2019 [01;32m/bin/ntfs-3g[0m
+-rwxr-xr-x 1 root root       14408  5월  3  2019 [01;32m/bin/ntfs-3g.probe[0m
+-rwxr-xr-x 1 root root       39024  5월  3  2019 [01;32m/bin/ntfsfallocate[0m
+-rwxr-xr-x 1 root root       39016  5월  3  2019 [01;32m/bin/ntfsmove[0m
+-rwxr-xr-x 1 root root       43040  5월  3  2019 [01;32m/bin/ntfstruncate[0m
+-rwxr-xr-x 1 root root       47752  5월  3  2019 [01;32m/bin/ntfswipe[0m
+-rwxr-xr-x 1 root root       18768  1월 31  2020 [01;32m/bin/oakdecode[0m
+-rwxr-xr-x 1 root root       28384  2월 29  2020 [01;32m/bin/oclock[0m
+-rwxr-xr-x 1 root root       72056  9월  5  2019 [01;32m/bin/od[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/opldecode[0m
+-rwxr-xr-x 1 root root        8729  5월  5  2020 [01;32m/bin/orca[0m
+-rwxr-xr-x 1 root root       18824  1월  5 12:10 [01;32m/bin/pacmd[0m
+-rwxr-xr-x 1 root root       14328  6월 26  2019 [01;32m/bin/paperconf[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/parec[0m -> [01;32mpacat[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/parecord[0m -> [01;32mpacat[0m
+-rwsr-xr-x 1 root root       68208  5월 28  2020 [37;41m/bin/passwd[0m
+-rwxr-xr-x 1 root root       43384  9월  5  2019 [01;32m/bin/paste[0m
+lrwxrwxrwx 1 root root          28  2월 22 14:23 [01;36m/bin/pasteurize[0m -> [01;32m/etc/alternatives/pasteurize[0m
+-rwxr-xr-x 1 root root      195096  7월 27  2019 [01;32m/bin/patch[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/pathchk[0m
+-rwxr-xr-x 1 root root       14648  1월  5 12:10 [01;32m/bin/pax11publish[0m
+-rwxr-xr-x 1 root root        2341  3월 21  2020 [01;32m/bin/pcre-config[0m
+-rwxr-xr-x 1 root root        1976 12월  8  2019 [01;32m/bin/pcre2-config[0m
+-rwxr-xr-x 1 root root         698  8월 22  2020 [01;32m/bin/pdf2dsc[0m
+-rwxr-xr-x 1 root root       22976  3월 28  2020 [01;32m/bin/pdfattach[0m
+-rwxr-xr-x 1 root root       23464  3월 28  2020 [01;32m/bin/pdfdetach[0m
+-rwxr-xr-x 1 root root       22760  3월 28  2020 [01;32m/bin/pdfseparate[0m
+-rwxr-xr-x 1 root root       26856  3월 28  2020 [01;32m/bin/pdfsig[0m
+-rwxr-xr-x 1 root root       30952  3월 28  2020 [01;32m/bin/pdfunite[0m
+-rwxr-xr-x 1 root root       14488 11월 12  2019 [01;32m/bin/peekfd[0m
+-rwxr-xr-x 1 root root       46366 10월 19 19:56 [01;32m/bin/perlbug[0m
+-rwxr-xr-x 1 root root         125 10월 28  2019 [01;32m/bin/perldoc[0m
+-rwxr-xr-x 1 root root       57920  2월  8  2020 [01;32m/bin/perli11ndoc[0m
+-rwxr-xr-x 1 root root         516  8월 22  2020 [01;32m/bin/pfbtopfa[0m
+-rwxr-xr-x 1 root root      221536  3월 21  2020 [01;32m/bin/pic[0m
+lrwxrwxrwx 1 root root          14  2월 22 14:23 [01;36m/bin/pidof[0m -> [01;32m/sbin/killall5[0m
+-rwxr-xr-x 1 root root       72776  1월 31  2020 [01;32m/bin/ping[0m
+-rwxr-xr-x 1 root root       22912  8월 16  2019 [01;32m/bin/pkcheck[0m
+-rwsr-xr-x 1 root root       31032  8월 16  2019 [37;41m/bin/pkexec[0m
+-rwxr-xr-x 1 root root       55552  2월  7  2020 [01;32m/bin/pkg-config[0m
+-rwxr-xr-x 1 root root       22904 12월 16 20:04 [01;32m/bin/pldd[0m
+-rwxr-xr-x 1 root root         146  2월  9  2019 [01;32m/bin/plog[0m
+-rwxr-xr-x 1 root root       51352 11월  2 19:02 [01;32m/bin/plymouth[0m
+-rwxr-xr-x 1 root root     1652232  8월 12  2016 [01;32m/bin/pnm2ppa[0m
+-rwxr-xr-x 1 root root        3948 10월 19 19:56 [01;32m/bin/pod2usage[0m
+-rwxr-xr-x 1 root root        2837  2월  9  2019 [01;32m/bin/poff[0m
+-rwxr-xr-x 1 root root      117280  4월 24  2020 [01;32m/bin/ppdc[0m
+-rwxr-xr-x 1 root root      117280  4월 24  2020 [01;32m/bin/ppdi[0m
+-rwxr-xr-x 1 root root       18816  4월 24  2020 [01;32m/bin/ppdmerge[0m
+-rwxr-xr-x 1 root root        5640  1월 31  2020 [01;32m/bin/printer-profile[0m
+-rwxr-xr-x 1 root root       59736  9월  5  2019 [01;32m/bin/printf[0m
+-rwxr-xr-x 1 root root       13655 10월 19 19:56 [01;32m/bin/prove[0m
+-rwxr-xr-x 1 root root         631  8월 22  2020 [01;32m/bin/ps2ascii[0m
+-rwxr-xr-x 1 root root        2752  8월 22  2020 [01;32m/bin/ps2epsi[0m
+-rwxr-xr-x 1 root root         272  8월 22  2020 [01;32m/bin/ps2pdf[0m
+lrwxrwxrwx 1 root root           9  2월 22 14:23 [01;36m/bin/psfaddtable[0m -> [01;32mpsfxtable[0m
+lrwxrwxrwx 1 root root           9  2월 22 14:23 [01;36m/bin/psfgettable[0m -> [01;32mpsfxtable[0m
+lrwxrwxrwx 1 root root           9  2월 22 14:23 [01;36m/bin/psfstriptable[0m -> [01;32mpsfxtable[0m
+-rwxr-xr-x 1 root root       22520  5월 10  2019 [01;32m/bin/psfxtable[0m
+-rwxr-xr-x 1 root root       26784  9월 10  2019 [01;32m/bin/psicc[0m
+-rwxr-xr-x 1 root root       14488 11월 12  2019 [01;32m/bin/pslog[0m
+-rwxr-xr-x 1 root root       36008 11월 12  2019 [01;32m/bin/pstree[0m
+-rwxr-xr-x 1 root root        2628 10월 19 19:56 [01;32m/bin/ptardiff[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/pwd[0m
+-rwxr-xr-x 1 root root       12120  3월 13  2020 [01;32m/bin/py3compile[0m
+-rwxr-xr-x 1 root root       11895  3월 13  2020 [01;32m/bin/pycompile[0m
+-rwxr-xr-x 1 root root         384  3월 28  2020 [01;32m/bin/python3-futurize[0m
+-rwxr-xr-x 1 root root         388  3월 28  2020 [01;32m/bin/python3-pasteurize[0m
+-rwxr-xr-x 1 root root       23144  1월 31  2020 [01;32m/bin/qpdldecode[0m
+lrwxrwxrwx 1 root root          23  1월 22 00:23 [01;36m/bin/ranlib[0m -> [01;32mx86_64-linux-gnu-ranlib[0m
+lrwxrwxrwx 1 root root           4  2월 22 14:23 [01;36m/bin/rbash[0m -> [01;32mbash[0m
+-rwxr-xr-x 1 root root      133360  2월 14  2020 [01;32m/bin/rdma[0m
+lrwxrwxrwx 1 root root          24  1월 22 00:23 [01;36m/bin/readelf[0m -> [01;32mx86_64-linux-gnu-readelf[0m
+-rwxr-xr-x 1 root root       51544  9월  5  2019 [01;32m/bin/readlink[0m
+lrwxrwxrwx 1 root root          25  4월  5 11:02 [01;36m/bin/readmsg[0m -> [01;32m/etc/alternatives/readmsg[0m
+-rwxr-xr-x 1 root root       51576  9월  5  2019 [01;32m/bin/realpath[0m
+-rwxr-xr-x 1 root root          89  2월 22  2020 [01;32m/bin/red[0m
+-rwxr-xr-x 1 root root      490480  4월 12  2020 [01;32m/bin/remmina[0m
+-rwxr-xr-x 1 root root         530  4월  8  2020 [01;32m/bin/remmina-gnome[0m
+-rwxr-xr-x 1 root root       61392  2월 29  2020 [01;32m/bin/rendercheck[0m
+-rwxr-xr-x 1 root root       14568  7월 21  2020 [01;32m/bin/renice[0m
+-rwxr-xr-x 1 root root         208  2월 14  2020 [01;32m/bin/routef[0m
+lrwxrwxrwx 1 root root          29  2월 22 14:23 [01;36m/bin/rrsync[0m -> [01;32m../share/rsync/scripts/rrsync[0m
+lrwxrwxrwx 1 root root          21  2월 22 14:23 [01;36m/bin/rsh[0m -> [01;32m/etc/alternatives/rsh[0m
+-rwxr-xr-x 1 root root        1469  2월 29  2020 [01;32m/bin/rstartd[0m
+-rwxr-xr-x 1 root root      516760 10월 15  2019 [01;32m/bin/rsync[0m
+-rwxr-xr-x 1 root root       10481 12월  7  2019 [01;32m/bin/savelog[0m
+-rwxr-xr-x 1 root root       55632  5월  4  2019 [01;32m/bin/sbattach[0m
+-rwxr-xr-x 1 root root       68144  5월  4  2019 [01;32m/bin/sbkeysync[0m
+-rwxr-xr-x 1 root root       56280  9월 17  2020 [01;32m/bin/scanimage[0m
+-rwxr-xr-x 1 root root          90 11월  3 16:31 [01;32m/bin/scp-dbus-service[0m
+-rwxr-xr-x 1 root root       51296  4월  8  2019 [01;32m/bin/sdiff[0m
+-rwxr-xr-x 1 root root        1349  9월 18  2019 [01;32m/bin/sdl-config[0m
+-rwxr-xr-x 1 root root     1203176  3월 14  2020 [01;32m/bin/seahorse[0m
+-rwxr-xr-x 1 root root      121288 12월 22  2018 [01;32m/bin/sed[0m
+lrwxrwxrwx 1 root root          11  2월 22 14:23 [01;36m/bin/see[0m -> [01;32mrun-mailcap[0m
+-rwxr-xr-x 1 root root       14328  3월 19  2018 [01;32m/bin/sessreg[0m
+-rwxr-xr-x 1 root root       27136  7월 21  2020 [01;32m/bin/setarch[0m
+-rwxr-xr-x 1 root root       14440  5월 10  2019 [01;32m/bin/setmetamode[0m
+-rwxr-xr-x 1 root root       30960  1월 26  2020 [01;32m/bin/setpci[0m
+-rwxr-xr-x 1 root root       14568  7월 21  2020 [01;32m/bin/setsid[0m
+lrwxrwxrwx 1 root root           6  2월 22 14:23 [01;36m/bin/sg[0m -> [37;41mnewgrp[0m
+lrwxrwxrwx 1 root root           4  2월 22 14:23 [01;36m/bin/sh[0m -> [01;32mdash[0m
+-rwxr-xr-x 1 root root       10232  3월 19  2018 [01;32m/bin/showrgb[0m
+-rwxr-xr-x 1 root root       63864  9월  5  2019 [01;32m/bin/shred[0m
+-rwxr-xr-x 1 root root       59736  9월  5  2019 [01;32m/bin/shuf[0m
+-rwxr-xr-x 1 root root       32816  3월 20  2020 [01;32m/bin/sieve[0m
+lrwxrwxrwx 1 root root          21  1월 22 00:23 [01;36m/bin/size[0m -> [01;32mx86_64-linux-gnu-size[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/slxdecode[0m
+-rwxr-xr-x 1 root root       43304  2월  2 17:21 [01;32m/bin/snapfuse[0m
+lrwxrwxrwx 1 root root           5  2월 22 14:23 [01;36m/bin/snice[0m -> [01;32mskill[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:23 [01;36m/bin/soffice[0m -> [01;32m../lib/libreoffice/program/soffice[0m
+-rwxr-xr-x 1 root root        4176 11월  3 23:08 [01;32m/bin/software-properties-gtk[0m
+-rwxr-xr-x 1 root root        1003  1월 20  2020 [01;32m/bin/spd-conf[0m
+-rwxr-xr-x 1 root root       35192 12월 16 20:04 [01;32m/bin/sprof[0m
+-rwxr-xr-x 1 root root      789448  3월  9 23:17 [01;32m/bin/ssh[0m
+-rwxr-xr-x 1 root root      370976  3월  9 23:17 [01;32m/bin/ssh-add[0m
+-rwxr-xr-x 1 root root       10658  2월 14  2020 [01;32m/bin/ssh-copy-id[0m
+-rwxr-xr-x 1 root root         409  2월 29  2020 [01;32m/bin/ssh-import-id[0m
+-rwxr-xr-x 1 root root         785  2월 29  2020 [01;32m/bin/ssh-import-id-gh[0m
+lrwxrwxrwx 1 root root           7  2월 22 14:23 [01;36m/bin/static-sh[0m -> [01;32mbusybox[0m
+-rwxr-xr-x 1 root root       51544  9월  5  2019 [01;32m/bin/stdbuf[0m
+-rwxr-xr-x 1 root root     1583592  4월 17  2020 [01;32m/bin/strace[0m
+-rwxr-xr-x 1 root root        1821  3월 19  2019 [01;32m/bin/strace-log-merge[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/sync[0m
+lrwxrwxrwx 1 root root          20  2월 22 14:23 [01;36m/bin/systemd[0m -> [01;32m/lib/systemd/systemd[0m
+-rwxr-xr-x 1 root root     1587584  1월  7 05:47 [01;32m/bin/systemd-analyze[0m
+-rwxr-xr-x 1 root root       14680  1월  7 05:47 [01;32m/bin/systemd-ask-password[0m
+-rwxr-xr-x 1 root root       26848  1월  7 05:47 [01;32m/bin/systemd-delta[0m
+-rwxr-xr-x 1 root root       22752  1월  7 05:47 [01;32m/bin/systemd-escape[0m
+-rwxr-xr-x 1 root root      104976  1월  7 05:47 [01;32m/bin/systemd-hwdb[0m
+-rwxr-xr-x 1 root root       18656  1월  7 05:47 [01;32m/bin/systemd-path[0m
+lrwxrwxrwx 1 root root          10  2월 22 14:23 [01;36m/bin/systemd-resolve[0m -> [01;32mresolvectl[0m
+-rwxr-xr-x 1 root root       26848  1월  7 05:47 [01;32m/bin/systemd-socket-activate[0m
+-rwxr-xr-x 1 root root       22760  1월  7 05:47 [01;32m/bin/systemd-stdio-bridge[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/tac[0m
+-rwxr-xr-x 1 root root      447896  7월 17  2019 [01;32m/bin/tcsh[0m
+-rwxr-xr-x 1 root root       43384  9월  5  2019 [01;32m/bin/tee[0m
+-rwxr-xr-x 1 root root       14360 12월  7  2019 [01;32m/bin/tempfile[0m
+lrwxrwxrwx 1 root root          33  2월 22 14:23 [01;36m/bin/thunderbird[0m -> [01;32m../lib/thunderbird/thunderbird.sh[0m[K
+-rwxr-xr-x 1 root root       92584  2월 26  2020 [01;32m/bin/tic[0m
+-rwxr-xr-x 1 root root       35056  9월 10  2019 [01;32m/bin/tificc[0m
+-rwxr-xr-x 1 root root       14720  4월 22  2017 [01;32m/bin/time[0m
+-rwxr-xr-x 1 root root       22776  2월 27  2020 [01;32m/bin/tload[0m
+-rwxr-xr-x 1 root root       22840  2월 26  2020 [01;32m/bin/toe[0m
+-rwxr-xr-x 1 root root      100728  9월  5  2019 [01;32m/bin/touch[0m
+-rwxr-xr-x 1 root root       18584  1월 31  2020 [01;32m/bin/tracepath[0m
+-rwxr-xr-x 1 root root       39080  9월 10  2019 [01;32m/bin/transicc[0m
+-rwxr-xr-x 1 root root      858016  3월 26  2020 [01;32m/bin/transmission-gtk[0m
+-rwxr-xr-x 1 root root      753568  3월 21  2020 [01;32m/bin/troff[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/true[0m
+-rwxr-xr-x 1 root root       43352  9월  5  2019 [01;32m/bin/truncate[0m
+-rwxr-xr-x 1 root root       14648  4월 10  2020 [01;32m/bin/ttfread[0m
+lrwxrwxrwx 1 root root          16  2월 22 14:23 [01;36m/bin/ua[0m -> [01;32mubuntu-advantage[0m
+-rwxr-xr-x 1 root root         442  3월 31  2020 [01;32m/bin/ubuntu-advantage[0m
+lrwxrwxrwx 1 root root          10  2월 22 14:23 [01;36m/bin/ubuntu-bug[0m -> [01;32mapport-bug[0m
+-rwxr-xr-x 1 root root       40685 12월 14  2018 [01;32m/bin/ucf[0m
+-rwxr-xr-x 1 root root       39288  9월  5  2019 [01;32m/bin/uname[0m
+-rwxr-xr-x 1 root root       99313  7월 22  2020 [01;32m/bin/unattended-upgrade[0m
+-rwxr-xr-x 1 root root       43384  9월  5  2019 [01;32m/bin/unexpand[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/unlink[0m
+lrwxrwxrwx 1 root root          24  2월 22 14:23 [01;36m/bin/unlzma[0m -> [01;32m/etc/alternatives/unlzma[0m
+-rwxr-xr-x 1 root root          52  8월 25  2020 [01;32m/bin/unopkg[0m
+-rwxr-xr-x 1 root root       43448  7월 21  2020 [01;32m/bin/unshare[0m
+-rwxr-xr-x 1 root root       26856  4월 21  2020 [01;32m/bin/update-desktop-database[0m
+-rwxr-xr-x 1 root root       59768  3월 25  2020 [01;32m/bin/update-mime-database[0m
+-rwxr-xr-x 1 root root       14568  2월 27  2020 [01;32m/bin/uptime[0m
+-rwxr-xr-x 1 root root        2936  7월  2  2019 [01;32m/bin/usb-creator-gtk[0m
+-rwxr-xr-x 1 root root       14656  1월 31  2020 [01;32m/bin/usb_printerid[0m
+-rwxr-xr-x 1 root root       39144  7월 21  2020 [01;32m/bin/uuidparse[0m
+lrwxrwxrwx 1 root root          20  2월 22 14:23 [01;36m/bin/vi[0m -> [01;32m/etc/alternatives/vi[0m
+-rwxr-xr-x 1 root root     2906824  4월 15  2020 [01;32m/bin/vim.basic[0m
+lrwxrwxrwx 1 root root          25  3월 12 14:55 [01;36m/bin/vimdiff[0m -> [01;32m/etc/alternatives/vimdiff[0m
+-rwxr-xr-x 1 root root       14488  7월  8  2019 [01;32m/bin/volname[0m
+-rwxr-xr-x 1 root root       27208  2월 27  2020 [01;32m/bin/watch[0m
+-rwxr-xr-x 1 root root       18744  3월 11  2020 [01;32m/bin/watchgnupg[0m
+-rwxr-xr-x 1 root root       47456  9월  5  2019 [01;32m/bin/wc[0m
+-rwxr-xr-x 1 root root         946 12월  7  2019 [01;32m/bin/which[0m
+-rwxr-xr-x 1 root root       39256  9월  5  2019 [01;32m/bin/whoami[0m
+-rwxr-xr-x 1 root root       68592  2월  5 11:37 [01;32m/bin/whoopsie[0m
+-rwxr-xr-x 1 root root       80200  3월  1 22:44 [01;32m/bin/wpa_passphrase[0m
+lrwxrwxrwx 1 root root          23  2월 22 14:23 [01;36m/bin/write[0m -> [30;43m/etc/alternatives/write[0m
+-rwxr-xr-x 1 root root      202200  2월 29  2020 [01;32m/bin/x11perf[0m
+-rwxr-xr-x 1 root root       35536  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-addr2line[0m
+lrwxrwxrwx 1 root root           5  3월 20  2020 [01;36m/bin/x86_64-linux-gnu-gcc[0m -> [01;32mgcc-9[0m
+lrwxrwxrwx 1 root root          12  3월 20  2020 [01;36m/bin/x86_64-linux-gnu-gcc-ranlib[0m -> [01;32mgcc-ranlib-9[0m
+lrwxrwxrwx 1 root root          24  1월 22 00:23 [01;36m/bin/x86_64-linux-gnu-gold[0m -> [01;32mx86_64-linux-gnu-ld.gold[0m[K
+-rwxr-xr-x 1 root root      102280  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-gprof[0m
+lrwxrwxrwx 1 root root          23  1월 22 00:23 [01;36m/bin/x86_64-linux-gnu-ld[0m -> [01;32mx86_64-linux-gnu-ld.bfd[0m
+-rwxr-xr-x 1 root root     1740384  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-ld.bfd[0m
+-rwxr-xr-x 1 root root     2312584  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-ld.gold[0m
+lrwxrwxrwx 1 root root          34  2월 22 14:23 [01;36m/bin/x86_64-linux-gnu-pkg-config[0m -> [01;32m/usr/share/pkg-config-crosswrapper[0m[K
+-rwxr-xr-x 1 root root       68056  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-ranlib[0m
+-rwxr-xr-x 1 root root      658360  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-readelf[0m
+-rwxr-xr-x 1 root root       35280  1월 22 00:23 [01;32m/bin/x86_64-linux-gnu-size[0m
+-rwxr-xr-x 1 root root       55552  2월  7  2020 [01;32m/bin/x86_64-pc-linux-gnu-pkg-config[0m
+-rwxr-xr-x 1 root root       56288  8월 25  2019 [01;32m/bin/xauth[0m
+-rwxr-xr-x 1 root root       24768  2월 29  2020 [01;32m/bin/xbiff[0m
+-rwxr-xr-x 1 root root      166384  3월  4  2020 [01;32m/bin/xbrlapi[0m
+-rwxr-xr-x 1 root root       48624  2월 29  2020 [01;32m/bin/xcalc[0m
+-rwxr-xr-x 1 root root       27296  2월 29  2020 [01;32m/bin/xclipboard[0m
+-rwxr-xr-x 1 root root       66704  2월 29  2020 [01;32m/bin/xclock[0m
+-rwxr-xr-x 1 root root       31480  3월 19  2018 [01;32m/bin/xcmsdb[0m
+-rwxr-xr-x 1 root root       27936  2월 29  2020 [01;32m/bin/xconsole[0m
+-rwxr-xr-x 1 root root       30028  1월 11 22:39 [01;32m/bin/xdg-icon-resource[0m
+-rwxr-xr-x 1 root root       42122  1월 11 22:39 [01;32m/bin/xdg-mime[0m
+-rwxr-xr-x 1 root root       22600 12월 28  2018 [01;32m/bin/xdg-user-dirs-gtk-update[0m
+-rwxr-xr-x 1 root root       26696  1월 24  2019 [01;32m/bin/xdg-user-dirs-update[0m
+-rwxr-xr-x 1 root root       41024  2월 29  2020 [01;32m/bin/xfd[0m
+-rwxr-xr-x 1 root root       10232  3월 19  2018 [01;32m/bin/xgamma[0m
+-rwxr-xr-x 1 root root       80304  2월 29  2020 [01;32m/bin/xgc[0m
+-rwxr-xr-x 1 root root       43408  2월 29  2020 [01;32m/bin/xkbevd[0m
+-rwxr-xr-x 1 root root       23736  2월 29  2020 [01;32m/bin/xkbwatch[0m
+-rwxr-xr-x 1 root root       16982  3월 19  2018 [01;32m/bin/xkeystone[0m
+-rwxr-xr-x 1 root root       27648  2월 29  2020 [01;32m/bin/xload[0m
+-rwxr-xr-x 1 root root       49584  2월 29  2020 [01;32m/bin/xmag[0m
+-rwxr-xr-x 1 root root       27840  2월 29  2020 [01;32m/bin/xmessage[0m
+-rwxr-xr-x 1 root root       19024  2월 29  2020 [01;32m/bin/xmore[0m
+-rwxr-xr-x 1 root root       18752  1월 31  2020 [01;32m/bin/xqxdecode[0m
+-rwxr-xr-x 1 root root       30808  3월 19  2018 [01;32m/bin/xrdb[0m
+-rwxr-xr-x 1 root root       10312  3월 19  2018 [01;32m/bin/xrefresh[0m
+-rwxr-xr-x 1 root root       10232  3월 19  2018 [01;32m/bin/xsetmode[0m
+-rwxr-xr-x 1 root root       40360  3월 19  2018 [01;32m/bin/xvidtune[0m
+-rwxr-xr-x 1 root root       39232  2월 29  2020 [01;32m/bin/xwd[0m
+-rwxr-xr-x 1 root root       35120  2월 29  2020 [01;32m/bin/xwud[0m
+-rwxr-xr-x 1 root root       18712  4월 15  2020 [01;32m/bin/xxd[0m
+-rwxr-xr-x 1 root root        6632  4월 21  2020 [01;32m/bin/xzdiff[0m
+-rwxr-xr-x 1 root root        2161  4월 21  2020 [01;32m/bin/xzmore[0m
+lrwxrwxrwx 1 root root           8  2월 22 14:23 [01;36m/bin/ypdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root        5880 12월 14  2019 [01;32m/bin/zdiff[0m
+-rwxr-xr-x 1 root root        2081 12월 14  2019 [01;32m/bin/zforce[0m
+-rwxr-xr-x 1 root root       93816  4월 22  2017 [01;32m/bin/zipcloak[0m
+-rwxr-xr-x 1 root root       89488  4월 22  2017 [01;32m/bin/zipnote[0m
+-rwxr-xr-x 1 root root       26952  1월 31  2020 [01;32m/bin/zjsdecode[0m
+-rwxr-xr-x 1 root root        1842 12월 14  2019 [01;32m/bin/zmore[0m
+]0;u20013@solgae: ~u20013@solgae:~$ cat >[Kpasd
+pasd
+]0;u20013@solgae: ~u20013@solgae:~$ cat SangGyun
+cat: SangGyun: No such file or directory
+]0;u20013@solgae: ~u20013@solgae:~$ echo $
+$
+]0;u20013@solgae: ~u20013@solgae:~$ echo $cat
+
+]0;u20013@solgae: ~u20013@solgae:~$ cat pase[Kd
+pasd
+]0;u20013@solgae: ~u20013@solgae:~$ a[Kcat $[K[K[K[K[Kecho cat[K[K[K[K $cas[Kt
+
+]0;u20013@solgae: ~u20013@solgae:~$ echo $cat[K[K[K?
+0
+]0;u20013@solgae: ~u20013@solgae:~$ cat pasd
+pasd
+]0;u20013@solgae: ~u20013@solgae:~$ echo $?
+0
+]0;u20013@solgae: ~u20013@solgae:~$ cat SangGu[Kyun
+cat: SangGyun: No such file or directory
+]0;u20013@solgae: ~u20013@solgae:~$ echo $?
+1
+]0;u20013@solgae: ~u20013@solgae:~$ cat pasd || echo ERROR
+pasd
+]0;u20013@solgae: ~u20013@solgae:~$ cat SangGu[Ktu[K[Kyun || echo ERROR
+cat: SangGyun: No such file or directory
+ERROR
+]0;u20013@solgae: ~u20013@solgae:~$ exit
+
+Script done on 2021-04-14 01:35:30+09:00 [COMMAND_EXIT_CODE="0"]

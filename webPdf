@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="ko" xml:lang="ko" class="html_login">
+<head>
+    <title>연세대학교 LearnUs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, target-densitydpi=medium-dpi" />
+    <meta name="keywords" content="moodle, coursemos, 코스모스">
+    <link rel="shortcut icon" href="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme/1620868958/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, 연세대학교 LearnUs: 사이트에 로그인" />
+<link rel="stylesheet" type="text/css" href="https://open.yonsei.ac.kr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://open.yonsei.ac.kr/theme/styles.php/coursemosv2/1620868958_1/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/open.yonsei.ac.kr","sesskey":"4pzDw1PItw","themerev":"1620868958","slasharguments":1,"theme":"coursemosv2","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1620868958","admin":"admin","svgicons":true,"usertimezone":"\uc544\uc2dc\uc544\/\uc11c\uc6b8","contextid":1,"lang":"ko"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/open.yonsei.ac.kr\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/open.yonsei.ac.kr\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/open.yonsei.ac.kr\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/open.yonsei.ac.kr\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/open.yonsei.ac.kr\/theme\/yui_combo.php?m\/1620868958\/","combine":true,"comboBase":"https:\/\/open.yonsei.ac.kr\/theme\/yui_combo.php?","ext":false,"root":"m\/1620868958\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_textbook-searchdialogue":{"requires":["base","panel","node","event","io-base","json-parse","moodle-core-notification"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_coursemosvimeo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_pasteimage-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_wiris-button":{"requires":["moodle-editor_atto-plugin","get"]}}},"gallery":{"name":"gallery","base":"https:\/\/open.yonsei.ac.kr\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/open.yonsei.ac.kr\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1620868958\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/open.yonsei.ac.kr\/lib\/javascript.php\/1620868958\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/open.yonsei.ac.kr\/lib\/javascript.php\/1620868958\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<meta name="robots" content="noindex" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="연세대학교 스마트 교육플랫폼 LearnUs" />
+<meta property="og:description" content="포스트 코로나 시대, 온라인 교육을 선도하는 대학 비대면, 온라인 강의를 위한 연세대학교의 교육혁신 플랫폼" />
+<meta property="og:image" content="null" />
+<meta property="og:url" content="https://open.yonsei.ac.kr" />
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css">
+<meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" />
+<style type="text/css">.mform .fitem .felement select, select.form-control { transition: none !important; -webkit-transition: none !important;}</style><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /></head>
+
+<body id="page-login" class="loginpage loginpage_3 loginpage-popup format-site  dir-ltr lang-ko yui-skin-sam yui3-skin-sam open-yonsei-ac-kr pagelayout-login course-1 context-1 notloggedin">
+<div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">주 내용으로 가기</a>
+</div><script type="text/javascript" src="https://open.yonsei.ac.kr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://open.yonsei.ac.kr/theme/jquery.php/core/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://open.yonsei.ac.kr/lib/javascript.php/1620868958/lib/javascript-static.js"></script>
+<script type="text/javascript" src="https://open.yonsei.ac.kr/theme/javascript.php/coursemosv2/1620868958/head"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/code.coursemos.co.kr/flexiblepage_cm35.js?v=0.13"></script><div role="main"><span id="maincontent"></span><div class="login-box container-fluid login-box-nohtml">
+	<div class="row">
+		<div class="col-loginbox ">
+			<div class="row">
+				<div class="col-login col-login-default">
+					<h2 class="login-title">LOGIN</h2>
+					<div class="langmenu">
+						<div class="dropdown dropdown-lang"><a id="user-info-lang" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/ko" alt="" />한국어 ‎(ko)‎ <span class="caret"></span> </a><ul class="dropdown-menu" aria-labelledby="user-info-lang"><li><a href="https://open.yonsei.ac.kr/login.php?lang=en" title="English ‎(en)‎"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/en" alt="en" class="lang_flag" /> English ‎(en)‎</a></li><li><a href="https://open.yonsei.ac.kr/login.php?lang=ja" title="日本語 ‎(ja)‎"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/ja" alt="ja" class="lang_flag" /> 日本語 ‎(ja)‎</a></li><li><a href="https://open.yonsei.ac.kr/login.php?lang=ko" title="한국어 ‎(ko)‎"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/ko" alt="ko" class="lang_flag" /> 한국어 ‎(ko)‎</a></li><li><a href="https://open.yonsei.ac.kr/login.php?lang=zh_cn" title="简体中文 ‎(zh_cn)‎"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/zh_cn" alt="zh_cn" class="lang_flag" /> 简体中文 ‎(zh_cn)‎</a></li></ul></div>					</div>
+					<!--
+					<div class="loginform">
+						<div class="btn-group">
+							<a href="" class="btn btn-sso"></a>
+							<button type="button" class="btn btn-person"></button>
+						</div>
+					</div>
+					<div class="loginfind">
+						<ul>
+							<li><a href="" target="_blank"></a></li>
+						</ul>
+					</div>
+					//-->
+				</div>
+				<div class="col-login col-login-person">
+					<div class="d-flex flex-wrap">
+
+<!--					<h2 class="login-title"></h2>//-->
+						<h2 class="login-title">LOGIN</h2>
+						<div class="langmenu">
+							<div class="dropdown dropdown-lang"><a id="user-info-lang" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/ko" alt="" class="icon"/>한국어 ‎(ko)‎ <span class="caret"></span> </a><ul class="dropdown-menu dropdown-menu-right" aria-labelledby="user-info-lang"><li><a href="https://open.yonsei.ac.kr/login.php?lang=en" title="English ‎(en)‎"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/en" alt="en" class="lang_flag icon" /> English ‎(en)‎</a></li><li><a href="https://open.yonsei.ac.kr/login.php?lang=ja" title="日本語 ‎(ja)‎"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/ja" alt="ja" class="lang_flag icon" /> 日本語 ‎(ja)‎</a></li><li><a href="https://open.yonsei.ac.kr/login.php?lang=ko" title="한국어 ‎(ko)‎"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/ko" alt="ko" class="lang_flag icon" /> 한국어 ‎(ko)‎</a></li><li><a href="https://open.yonsei.ac.kr/login.php?lang=zh_cn" title="简体中文 ‎(zh_cn)‎"><img src="https://open.yonsei.ac.kr/theme/image.php/coursemosv2/theme_coursemosv2/1620868958/flag/zh_cn" alt="zh_cn" class="lang_flag icon" /> 简体中文 ‎(zh_cn)‎</a></li></ul></div>						</div>
+
+												<form id="ssoLoginForm" name="ssoLoginForm" class="mform form-login" method="post" >
+							<input type="hidden" id="ssoGubun"     name="ssoGubun"      value="Login" />
+
+														<div class="textform">
+								<input type="text" id="input-username" name="username" placeholder="사용자 아이디" value="" class="required" />
+								<input type="password" id="input-password" name="password" placeholder="비밀번호" class="required" />
+							</div>
+							<div class="submitform">
+								<input type="submit" name="loginbutton" class="btn btn-success" value="로그인" />
+							</div>
+							<!--
+							<div class="ssologinbtn">
+								<a href="" class="btn btn-sso"></a>
+							</div>
+							//-->
+							
+							<div class="checkbox check-username">
+								<label>
+									<input type="checkbox" id="remember" name="rememberusername"  />
+									아이디 저장								</label>
+							</div>
+							<div class="checkbox check-manual">
+								<label>
+									<input type="checkbox" name="manual" />
+									별도계정								</label>
+							</div>
+							<div class="loginfind">
+								<a href="https://portal.yonsei.ac.kr/main/" target="_blank">아이디 / 비밀번호 찾기</a>
+							</div>
+						</form>
+						</div>
+				</div>
+				<!--
+				<div class="col-family">
+					<ul>
+						<li class="family-1"><a href="#" target="_blank">e-포트폴리오</a></li>
+						<li class="family-2"><a href="#" target="_blank">연세대학교</a></li>
+						<li class="family-3"><a href="#" target="_blank">학술정보원(도서관)</a></li>
+						<li class="family-4"><a href="#" target="_blank">교수학습혁신센터</a></li>
+						<li class="family-5"><a href="#" target="_blank">교육기부</a></li>						
+					</ul>
+				</div>//-->
+			</div>		
+						<div class="row row-notice">
+				<div class="col-notice">
+					<div class="more">
+						<a href="https://open.yonsei.ac.kr/mod/ubboard/view.php?id=2009295">&nbsp;</a>
+					</div>
+					<h3>공지사항</h3>
+					<ul>
+						<li><a href="https://open.yonsei.ac.kr/mod/ubboard/article.php?id=2009295&bwid=201908" class="bold">경영대학 경영학 창업혁신 부전공 안내(2020학번 부터)</a><span class="new_icon">N</span></li><li><a href="https://open.yonsei.ac.kr/mod/ubboard/article.php?id=2009295&bwid=159720" class="">LearnUs 앱 이용 안내</a></li><li><a href="https://open.yonsei.ac.kr/mod/ubboard/article.php?id=2009295&bwid=140019" class="">비대면 온라인 중간시험 및 평가 관련 공지사항</a></li><li><a href="https://open.yonsei.ac.kr/mod/ubboard/article.php?id=2009295&bwid=114802" class="">전자출결 방법 안내</a></li>					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-buttonset">
+					
+					<div class="col-button col-button-first">
+						<a href="https://open.yonsei.ac.kr/mod/ubboard/view.php?id=2009296" class="btn btn-buttonset">Q&A</a>
+					</div>
+					<div class="col-button">
+						<a href="https://open.yonsei.ac.kr/mod/ubboard/view.php?id=2009295" class="btn btn-buttonset">공지사항</a>
+					</div>
+					<div class="col-button">
+						<a href="https://open.yonsei.ac.kr/local/ubmanual/" class="btn btn-buttonset">매뉴얼</a>
+					</div>
+					<div class="col-button">
+						<a href="https://open.yonsei.ac.kr/mod/ubboard/view.php?id=2009297" class="btn btn-buttonset">FAQ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-html">
+            		</div>
+	</div>
+</div></div>
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/code.coursemos.co.kr/csmsmedia/js/addExtBtn.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M9Z4NCPPY6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M9Z4NCPPY6');
+</script><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://open.yonsei.ac.kr/lib/requirejs.php/1620868958/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://open.yonsei.ac.kr/lib/javascript.php/1620868958/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://open.yonsei.ac.kr/lib/javascript.php/1620868958/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://open.yonsei.ac.kr/lib/javascript.php/1620868958/lib/requirejs/jquery-private',
+        iziModal: 'https://open.yonsei.ac.kr/lib/javascript.php/1620868958/lib/jquery/iziModal',
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      // #coursemos
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://open.yonsei.ac.kr/lib/javascript.php/1620868958/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://open.yonsei.ac.kr/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("ko",{
+ "Play": "재생",
+ "Pause": "일시중지",
+ "Current Time": "현재 시간",
+ "Duration Time": "지정 기간",
+ "Remaining Time": "남은 시간",
+ "Stream Type": "스트리밍 유형",
+ "LIVE": "라이브",
+ "Loaded": "로드됨",
+ "Progress": "진행",
+ "Fullscreen": "전체 화면",
+ "Non-Fullscreen": "전체 화면 해제",
+ "Mute": "음소거",
+ "Unmute": "음소거 해제",
+ "Playback Rate": "재생 비율",
+ "Subtitles": "서브타이틀",
+ "subtitles off": "서브타이틀 끄기",
+ "Captions": "자막",
+ "captions off": "자막 끄기",
+ "Chapters": "챕터",
+ "You aborted the media playback": "비디오 재생을 취소했습니다.",
+ "A network error caused the media download to fail part-way.": "네트워크 오류로 인하여 비디오 일부를 다운로드하지 못 했습니다.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "비디오를 로드할 수 없습니다. 서버 혹은 네트워크 오류 때문이거나 지원되지 않는 형식 때문일 수 있습니다.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "비디오 재생이 취소됐습니다. 비디오가 손상되었거나 비디오가 사용하는 기능을 브라우저에서 지원하지 않는 것 같습니다.",
+ "No compatible source was found for this media.": "비디오에 호환되지 않는 소스가 있습니다."
+});
+
+    });
+});;
+M.util.js_pending('theme_coursemosv2/index');
+require(['theme_coursemosv2/index'], function(amd) {
+    amd.login();
+    M.util.js_complete('theme_coursemosv2/index');
+});;
+M.util.js_pending('core/notification');
+require(['core/notification'], function(amd) {
+    amd.init(1, []);
+    M.util.js_complete('core/notification');
+});;
+M.util.js_pending('core/log');
+require(['core/log'], function(amd) {
+    amd.setConfig({"level":"warn"});
+    M.util.js_complete('core/log');
+});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script type="text/javascript" src="https://open.yonsei.ac.kr/theme/javascript.php/coursemosv2/1620868958/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\ucd5c\uc885 \uc218\uc815 \uc77c\uc2dc","name":"\uc81c\ubaa9","error":"\uc624\ub958","info":"\uc815\ubcf4","yes":"\uc608","no":"\uc544\ub2c8\uc624","cancel":"\ucde8\uc18c","confirm":"\ud655\uc778","areyousure":"\uacc4\uc18d\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?","closebuttontitle":"\ub2eb\uae30","unknownerror":"\uc54c \uc218 \uc5c6\ub294 \uc624\ub958"},"repository":{"type":"\uc720\ud615","size":"\ud06c\uae30","invalidjson":"\uc798\ubabb\ub41c JSON \ubb38\uc790\uc5f4","nofilesattached":"\ucca8\ubd80\ubb3c \uc5c6\uc74c","filepicker":"\ud30c\uc77c \uc120\ud0dd\ub3c4\uad6c","logout":"\ub098\uac00\uae30","nofilesavailable":"\uc4f8 \uc218 \uc788\ub294 \ud30c\uc77c\uc774 \uc5c6\uc74c","norepositoriesavailable":"\uc8c4\uc1a1\ud569\ub2c8\ub2e4. \ud604\uc7ac \uc800\uc7a5\uc18c\uc911\uc5d0\uc11c \ud544\uc694\ud55c \ud3ec\ub9f7\uc73c\ub85c \ud30c\uc77c\uc744 \ubcf4\ub0b4\uc8fc\ub294 \uc800\uc7a5\uc18c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.","fileexistsdialogheader":"\ud30c\uc77c\uc774 \uc874\uc7ac\ud569\ub2c8\ub2e4.","fileexistsdialog_editor":"\uac19\uc740 \uc774\ub984\uc758 \ud30c\uc77c\uc774 \ud3b8\uc9d1\ud558\uace0 \uc788\ub294 \ubb38\uc7a5\uc5d0 \uc774\ubbf8 \ucca8\ubd80\ub418\uc5c8\uc2b5\ub2c8\ub2e4.","fileexistsdialog_filemanager":"\uac19\uc740 \uc774\ub984\uc758 \ud30c\uc77c\uc774 \uc774\ubbf8 \ucca8\ubd80\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4.","renameto":"\"{$a}\"\ub85c \uc774\ub984 \ubcc0\uacbd","referencesexist":"\uc774\ud30c\uc77c\uc744 \uc18c\uc2a4\ub85c \uc0ac\uc6a9\ud558\ub294 {$a} \ubcc4\uce6d \/ \ubc14\ub85c\uac00\uae30 \ud30c\uc77c\uc774 \uc788\uc2b5\ub2c8\ub2e4.","select":"\uc120\ud0dd"},"admin":{"confirmdeletecomments":"\uc120\ud0dd\ud55c \ub313\uae00\uc744 \uc0ad\uc81c\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?","confirmation":"\ud655\uc778"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"ko"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random60a40630b14152'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random60a40630b14152'); });
+})();
+//]]>
+</script>
+</body>
+</html>

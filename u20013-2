@@ -1,0 +1,64 @@
+Script started on 2021-03-31 04:59:45+09:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="158" LINES="43"]
+]0;u20013@solgae: ~u20013@solgae:~$ who -H
+NAME     LINE         TIME             COMMENT
+u20013   pts/0        2021-03-31 04:36 (119.67.142.76)
+u18081   pts/1        2021-03-31 04:16 (221.165.16.103)
+u20055   pts/2        2021-03-30 21:39 (61.105.82.63)
+u16082   pts/3        2021-03-31 04:34 (119.149.14.182)
+u18016   pts/4        2021-03-31 04:31 (183.108.35.206)
+u20072   pts/11       2021-03-30 23:11 (175.125.210.237)
+]0;u20013@solgae: ~u20013@solgae:~$ ls
+[0m[01;34mHW2u20013[0m  JJamBBong  [01;34mMusic[0m  Orange  Sipal  WonJu  [01;34mayj[0m  [01;34mnewdir[0m  typescript  [01;34mu20013[0m  [01;34myjAhn[0m
+]0;u20013@solgae: ~u20013@solgae:~$ ls -l
+total 40
+drwxr-xr-x 2 u20013 u_student 4096  3월 31 03:27 [0m[01;34mHW2u20013[0m
+-rw-r--r-- 1 u20013 u_student   18  3월 31 03:52 JJamBBong
+drwxr-xr-x 2 u20013 u_student 4096  3월 24 10:38 [01;34mMusic[0m
+-rw-r--r-- 1 u20013 u_student   24  3월 24 10:21 Orange
+-rw-r--r-- 1 u20013 u_student   14  3월 31 03:42 Sipal
+-rw-r--r-- 1 u20013 u_student   15  3월 31 03:51 WonJu
+drwxr-xr-x 2 u20013 u_student 4096  3월 31 04:26 [01;34mayj[0m
+drwxr-xr-x 2 u20013 u_student 4096  3월 24 10:25 [01;34mnewdir[0m
+-rw-r--r-- 1 u20013 u_student    0  3월 31 04:59 typescript
+drwxr-xr-x 3 u20013 u_student 4096  3월 31 04:04 [01;34mu20013[0m
+drwxr-xr-x 2 u20013 u_student 4096  3월 31 04:13 [01;34myjAhn[0m
+]0;u20013@solgae: ~u20013@solgae:~$ ls -al
+total 96
+drwxr-xr-x 11 u20013 u_student  4096  3월 31 04:59 [0m[01;34m.[0m
+drwxr-xr-x 86 root   root       4096  3월 24 10:19 [01;34m..[0m
+-rw-------  1 u20013 u_student  4754  3월 31 04:36 .bash_history
+-rw-r--r--  1 u20013 u_student   220  2월 25  2020 .bash_logout
+-rw-r--r--  1 u20013 u_student  3771  2월 25  2020 .bashrc
+drwx------  4 u20013 u_student  4096  3월 17 09:03 [01;34m.cache[0m
+drwxr-xr-x  4 u20013 u_student  4096  3월 17 09:03 [01;34m.config[0m
+drwxr-xr-x  3 u20013 u_student  4096  3월 17 09:03 [01;34m.local[0m
+-rw-r--r--  1 u20013 u_student   807  2월 25  2020 .profile
+-rw-------  1 u20013 u_student 12288  3월 29 10:20 .swp
+-rw-------  1 u20013 u_student   689  3월 29 10:20 .viminfo
+drwxr-xr-x  2 u20013 u_student  4096  3월 31 03:27 [01;34mHW2u20013[0m
+-rw-r--r--  1 u20013 u_student    18  3월 31 03:52 JJamBBong
+drwxr-xr-x  2 u20013 u_student  4096  3월 24 10:38 [01;34mMusic[0m
+-rw-r--r--  1 u20013 u_student    24  3월 24 10:21 Orange
+-rw-r--r--  1 u20013 u_student    14  3월 31 03:42 Sipal
+-rw-r--r--  1 u20013 u_student    15  3월 31 03:51 WonJu
+drwxr-xr-x  2 u20013 u_student  4096  3월 31 04:26 [01;34mayj[0m
+drwxr-xr-x  2 u20013 u_student  4096  3월 24 10:25 [01;34mnewdir[0m
+-rw-r--r--  1 u20013 u_student     0  3월 31 04:59 typescript
+drwxr-xr-x  3 u20013 u_student  4096  3월 31 04:04 [01;34mu20013[0m
+drwxr-xr-x  2 u20013 u_student  4096  3월 31 04:13 [01;34myjAhn[0m
+]0;u20013@solgae: ~u20013@solgae:~$ cat > Hi
+HiHi
+]0;u20013@solgae: ~u20013@solgae:~$ mkdir[K[K[K[K[Kmkdir >[K[K > Farwell
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+]0;u20013@solgae: ~u20013@solgae:~$ mkdir Farewill[K[K[Kell
+]0;u20013@solgae: ~u20013@solgae:~$ hear h[K[K[Kd Hi
+HiHi
+]0;u20013@solgae: ~u20013@solgae:~$ he[K[Ktak[Kil Far[K[K[KHi
+HiHi
+]0;u20013@solgae: ~u20013@solgae:~$ ls
+[0m[01;34mFarewell[0m  Farwell  [01;34mHW2u20013[0m  Hi  JJamBBong  [01;34mMusic[0m  Orange  Sipal  WonJu  [01;34mayj[0m  [01;34mnewdir[0m  typescript  [01;34mu20013[0m  [01;34myjAhn[0m
+]0;u20013@solgae: ~u20013@solgae:~$ exit
+exit
+
+Script done on 2021-03-31 05:01:24+09:00 [COMMAND_EXIT_CODE="0"]
